@@ -1,0 +1,1171 @@
+,id,authors,title,doi,category,abstract
+0,0704.0479,T.Geisser,The affine part of the Picard scheme,,"['math.AG', 'math.KT']","  We describe the maximal torus and maximal unipotent subgroup of the Picard
+variety of a proper scheme over a perfect field.
+"
+1,0704.1445,Yasha Gindikin and Vladimir A. Sablikov,Deformed Wigner crystal in a one-dimensional quantum dot,10.1103/PhysRevB.76.045122,"['cond-mat.str-el', 'cond-mat.mes-hall']","  The spatial Fourier spectrum of the electron density distribution in a finite
+1D system and the distribution function of electrons over single-particle
+states are studied in detail to show that there are two universal features in
+their behavior, which characterize the electron ordering and the deformation of
+Wigner crystal by boundaries. The distribution function has a $\delta$-like
+singularity at the Fermi momentum $k_F$. The Fourier spectrum of the density
+has a step-like form at the wavevector $2k_F$, with the harmonics being absent
+or vanishing above this threshold. These features are found by calculations
+using exact diagonalization method. They are shown to be caused by Wigner
+ordering of electrons, affected by the boundaries. However the common Luttinger
+liquid model with open boundaries fails to capture these features, because it
+overestimates the deformation of the Wigner crystal. An improvement of the
+Luttinger liquid model is proposed which allows one to describe the above
+features correctly. It is based on the corrected form of the density operator
+conserving the particle number.
+"
+2,0705.0033,"Nikos Frantzikinakis, Randall McCutcheon",Ergodic Theory: Recurrence,,['math.DS'],"  We survey the impact of the Poincar\'e recurrence principle in ergodic
+theory, especially as pertains to the field of ergodic Ramsey theory.
+"
+3,0705.0344,J. P. Pridham,Unifying derived deformation theories,,['math.AG'],"  We develop a framework for derived deformation theory, valid in all
+characteristics. This gives a model category reconciling local and global
+approaches to derived moduli theory. In characteristic 0, we use this to show
+that the homotopy categories of DGLAs and SHLAs (L infinity algebras)
+considered by Kontsevich, Hinich and Manetti are equivalent, and are compatible
+with the derived stacks of Toen--Vezzosi and Lurie. Another application is that
+the cohomology groups associated to any classical deformation problem (in any
+characteristic) admit the same operations as Andre--Quillen cohomology.
+"
+4,0705.0825,Ram Gopal Vishwakarma (Zacatecas University),Einstein's Theory of Gravity in the Presence of Pressure: A Review,10.1007/s10509-009-0016-8,"['gr-qc', 'astro-ph', 'hep-th']","  The mysterious `dark energy' needed to explain the current observations,
+poses a serious confrontation between fundamental physics and cosmology. The
+present crisis may be an outcome of the (so far untested) prediction of the
+general theory of relativity that the pressure of the matter source also
+gravitates. In this view, a theoretical analysis reveals some surprising
+inconsistencies and paradoxes faced by the energy-stress tensor (in the
+presence of pressure) which is used to model the matter content of the
+universe, including dark energy.
+"
+5,0705.2562,Ken D. Olum and Delia Schwartz-Perlov,Anthropic prediction in a large toy landscape,10.1088/1475-7516/2007/10/010,['hep-th'],"  The successful anthropic prediction of the cosmological constant depends
+crucially on the assumption of a flat prior distribution. However, previous
+calculations in simplified landscape models showed that the prior distribution
+is staggered, suggesting a conflict with anthropic predictions. Here we
+analytically calculate the full distribution, including the prior and anthropic
+selection effects, in a toy landscape model with a realistic number of vacua,
+$N \sim 10^{500}$. We show that it is possible for the fractal prior
+distribution we find to behave as an effectively flat distribution in a wide
+class of landscapes, depending on the regime of parameter space. Whether or not
+this possibility is realized depends on presently unknown details of the
+landscape.
+"
+6,0705.3164,Gabriel Vigny,"Dirichlet-like space and capacity in complex analysis in several
+  variables",,"['math.CV', 'math.FA']","  For a Kahler manifold X, we study a space of test functions W* which is a
+complex version of H1. We prove for W* the classical results of the theory of
+Dirichlet spaces: the functions in W* are defined up to a pluripolar set and
+the functional capacity associated to W* tests the pluripolar sets. This
+functional capacity is a Choquet capacity.
+  The space W* is not reflexive and the smooth functions are not dense in it
+for the strong topology. So the classical tools of potential theory do not
+apply here. We use instead pluripotential theory and Dirichlet spaces
+associated to a current.
+"
+7,0705.4004,Samy Skander Bahoura (IMJ),About Brezis-Merle Problem with Lipschitz condition,,['math.AP'],"  We give blow-up analysis for a Brezis-Merle's problem on the boundary. Also
+we give a proof of a compactness result with Lipschitz condition and weaker
+assumption on the regularity of the domain (smooth domain or $ C^{2,\alpha} $
+domain).
+"
+8,0705.4060,Ruy Exel and Artur O. Lopes,C*- Algebras and Thermodynamic Formalism,,"['math.DS', 'math.OA']","  We present a detailed exposition (for a Dynamical System audience) of the
+content of the paper: R. Exel and A. Lopes, $C^*$ Algebras, approximately
+proper equivalence relations and Thermodynamic Formalism, {\it Erg. Theo. and
+Dyn. Syst.}, Vol 24, pp 1051-1082 (2004). We show only the uniqueness of the
+\beta-KMS (in a certain C*-Algebra obtained from the operators acting in $L^2$
+of a Gibbs invariant probability $\mu$) and its relation with the
+eigen-probability $\nu_\beta$ for the dual of a certain Ruele operator. We
+consider an example for a case of Hofbauer type where there exist a Phase
+transition for the Gibbs state. There is no Phase transition for the KMS state.
+"
+9,0705.4151,"Maria Deijfen, Henri van den Esker, Remco van der Hofstad, Gerard
+  Hooghiemstra",A preferential attachment model with random initial degrees,10.1007/s11512-007-0067-4,"['math.PR', 'math.CO']","  In this paper, a random graph process ${G(t)}_{t\geq 1}$ is studied and its
+degree sequence is analyzed. Let $(W_t)_{t\geq 1}$ be an i.i.d. sequence. The
+graph process is defined so that, at each integer time $t$, a new vertex, with
+$W_t$ edges attached to it, is added to the graph. The new edges added at time
+t are then preferentially connected to older vertices, i.e., conditionally on
+$G(t-1)$, the probability that a given edge is connected to vertex i is
+proportional to $d_i(t-1)+\delta$, where $d_i(t-1)$ is the degree of vertex $i$
+at time $t-1$, independently of the other edges. The main result is that the
+asymptotical degree sequence for this process is a power law with exponent
+$\tau=\min\{\tau_{W}, \tau_{P}\}$, where $\tau_{W}$ is the power-law exponent
+of the initial degrees $(W_t)_{t\geq 1}$ and $\tau_{P}$ the exponent predicted
+by pure preferential attachment. This result extends previous work by Cooper
+and Frieze, which is surveyed.
+"
+10,0706.0156,Liane Gabora and Diederik Aerts,"A Cross-disciplinary Framework for the Description of Contextually
+  Mediated Change",10.1142/9789812779953_0005,"['physics.gen-ph', 'physics.bio-ph', 'physics.pop-ph']","  We present a mathematical framework (referred to as Context-driven
+Actualization of Potential, or CAP) for describing how entities change over
+time under the influence of a context. The approach facilitates comparison of
+change of state of entities studied in different disciplines. Processes are
+seen to differ according to the degree of nondeterminism, and the degree to
+which they are sensitive to, internalize, and depend upon a particular context.
+Our analysis suggests that the dynamical evolution of a quantum entity
+described by the Schrodinger equation is not fundamentally different from
+change provoked by a measurement often referred to as collapse, but a limiting
+case, with only one way to collapse. The biological transition to coded
+replication is seen as a means of preserving structure in the fact of
+context-driven change, and sextual replication as a means of increasing
+potentiality thus enhancing diversity through interaction with context. The
+framework sheds light on concepts like selection and fitness, reveals how
+exceptional Darwinian evolution is as a means of 'change of state', and
+clarifies in what sense culture, and the creative process underlying it, are
+Darwinian.
+"
+11,0706.1138,Susumu Oda,Generalized Jacobian Conjectures -- A purely Algebraic Approach,,"['math.AC', 'math.AG']","  Our goal is to settle a fading problem, the Jacobian Conjecture $(JC_n)$~:
+  If $f_1, \cdots, f_n$ are elements in a polynomial ring $k[X_1, \cdots, X_n]$
+over a field $k$ of characteristic zero such that $ \det(\partial f_i/ \partial
+X_j) $ is a nonzero constant, then $k[f_1, \cdots, f_n] = k[X_1, \cdots, X_n]$.
+  Practically, what we deal with is the generalized one,
+  \noindent
+  The Generalized Jacobian Conjecture$(GJC)$ :{\it Let $S \hookrightarrow T$ be
+an unramified homomorphism of Noetherian domains. Assume that $S$ is a simply
+connected UFD ({\sl i.e.,} ${\rm Spec}(S)$ is simply connected and $S$ is a
+unique factorization domain) and that $T^\times \cap S = S^\times$. Then $T =
+S$.}
+  In addition, for consistency of the discussion, we raise some serious (or
+idiot) questions and some comments about the examples appeared in the papers
+published by the certain excellent mathematicians (though we are not willing to
+deal with them). However, the existence of such examples would be against our
+Main Result above, so that we have to dispute in Appendix B their arguments
+about the existence of their respective (so called) counter-examples. Our
+conclusion is that they are not perfect counter-examples which is shown
+explicitly.
+"
+12,0706.2239,Marti Lahoz,Infinitesimal Castelnuovo Theory in Abelian Varieties,,['math.AG'],"  The purpose of this article is to show that the Castelnuovo theory for
+abelian varieties, developed by G. Pareschi and M. Popa, can be
+infinitesimalized. More precisely, we prove that an irreducible principally
+polarized abelian variety has a finite scheme in extremal position, in the
+sense of Castelnuovo theory for abelian varieties, if, and only if, it is a
+Jacobian and the scheme is contained in a unique Abel-Jacobi curve.
+"
+13,0706.2907,"Jon Yard, Igor Devetak","Optimal quantum source coding with quantum information at the encoder
+  and decoder",10.1109/TIT.2009.2030494,['quant-ph'],"  Consider many instances of an arbitrary quadripartite pure state of four
+quantum systems ABCD. Alice holds the AC part of each state, Bob holds B, while
+D represents all other parties correlated with ABC. Alice is required to
+redistribute the C systems to Bob while asymptotically preserving the overall
+purity. We prove that this is possible using Q qubits of communication and E
+ebits of shared entanglement between Alice and Bob, provided that Q geq
+I(C;D|B)/2 and Q+E geq H(C|B), proving the optimality of the Luo-Devetak outer
+bound. The optimal qubit rate provides the first known operational
+interpretation of quantum conditional mutual information. We also show how our
+protocol leads to a fully operational proof of strong subadditivity and uncover
+a general organizing principle, in analogy to thermodynamics, that underlies
+the optimal rates.
+"
+14,0706.3282,Tao Zhang,Unified products for braided Lie bialgebras. Applications,,"['math.QA', 'math.RA']","  We construct unified products for braided Lie bialgebras. Some special cases
+of unified products such as crossed product and matched pair of braided Lie
+bialgebras are studied. It is proved that the extending problem for Lie
+bialgebras can be classified by some non-abelian cohomology theory of braided
+Lie bialgebras. As a byproduct, a non-abelian extension theory of Lie
+bialgebras is developed. Furthermore, one dimensional flag extending systems of
+Lie bialgebras are also investigated.
+"
+15,0706.3550,Xiaobo Liu and Chuu-Lian Terng,The mean curvature flow for isoparametric submanifolds,10.1215/00127094-2009-009,['math.DG'],"  A submanifold in space forms is isoparametric if the normal bundle is flat
+and principal curvatures along any parallel normal fields are constant. We
+study the mean curvature flow with initial data an isoparametric submanifold in
+Euclidean space and sphere. We show that the mean curvature flow preserves the
+isoparametric condition, develops singularities in finite time, and converges
+in finite time to a smooth submanifold of lower dimension. We also give a
+precise description of the collapsing.
+"
+16,0706.4180,Daegene Song,Universal Grammar and Consciousness,,['physics.gen-ph'],"  The orthodox interpretation of quantum theory treats the subject and the
+object on an equal footing. It has been suggested that the cyclical-time
+process, which resolves self-reference in consciousness, interconnects the
+observed universe and the mind of the subject. Based on the analogy between
+cryptography and language, the concept of the common innate structure of
+language, also known as universal grammar, may be associated with the
+continuity in consciousness. Extending this connection, Levi-Strauss's proposal
+on universal culture may be considered as a shared structure of continuity
+among the consciousness of multiple subjects.
+"
+17,0707.0386,"P. Yu. Moshin, A. A. Reshetnyak","BRST approach to Lagrangian formulation for mixed-symmetry fermionic
+  higher-spin fields",10.1088/1126-6708/2007/10/040,['hep-th'],"  We construct a Lagrangian description of irreducible half-integer higher-spin
+representations of the Poincare group with the corresponding Young tableaux
+having two rows, on a basis of the BRST approach. Starting with a description
+of fermionic higher-spin fields in a flat space of any dimension in terms of an
+auxiliary Fock space, we realize a conversion of the initial operator
+constraint system (constructed with respect to the relations extracting
+irreducible Poincare-group representations) into a first-class constraint
+system. For this purpose, we find auxiliary representations of the constraint
+subsuperalgebra containing the subsystem of second-class constraints in terms
+of Verma modules. We propose a universal procedure of constructing
+gauge-invariant Lagrangians with reducible gauge symmetries describing the
+dynamics of both massless and massive fermionic fields of any spin. No
+off-shell constraints for the fields and gauge parameters are used from the
+very beginning. It is shown that the space of BRST cohomologies with a
+vanishing ghost number is determined only by the constraints corresponding to
+an irreducible Poincare-group representation. To illustrate the general
+construction, we obtain a Lagrangian description of fermionic fields with
+generalized spin (3/2,1/2) and (3/2,3/2) on a flat background containing the
+complete set of auxiliary fields and gauge symmetries.
+"
+18,0707.1668,Adrian Vasiu,"Good reductions of Shimura varieties of Hodge type in arbitrary
+  unramified mixed characteristic. Part I",,"['math.NT', 'math.AG']","  We prove the existence of good smooth integral models of Shimura varieties of
+Hodge type in arbitrary unramified mixed characteristic $(0,p)$. As a first
+application we provide a smooth solution (answer) to a conjecture (question) of
+Langlands for Shimura varieties of Hodge type. As a second application we prove
+the existence in arbitrary unramified mixed characteristic $(0,p)$ of integral
+canonical models of projective Shimura varieties of Hodge type with respect to
+h--hyperspecial subgroups as pro-\'etale covers of N\'eron models; this forms
+progress towards the proof of conjectures of Milne and Reimann. Though the
+second application was known before in some cases, its proof is new and more of
+a principle.
+"
+19,0707.2262,"Nathan Broaddus, Benson Farb, Andrew Putman","Irreducible Sp-representations and subgroup distortion in the mapping
+  class group",10.4171/CMH/233,"['math.GT', 'math.GR']","  We prove that various subgroups of the mapping class group $Mod(\Sigma)$ of a
+surface $\Sigma$ are at least exponentially distorted. Examples include the
+Torelli group (answering a question of Hamenstadt), the ""point-pushing"" and
+surface braid subgroups, and the Lagrangian subgroup. Our techniques include a
+method to compute lower bounds on distortion via representation theory and an
+extension of Johnson theory to arbitrary subgroups of $H_1(\Sigma;\mathbb{Z})$.
+"
+20,0707.2348,R. Pandharipande and R. P. Thomas,Curve counting via stable pairs in the derived category,10.1007/s00222-009-0203-9,"['math.AG', 'hep-th', 'math.SG']","  For a nonsingular projective 3-fold $X$, we define integer invariants
+virtually enumerating pairs $(C,D)$ where $C\subset X$ is an embedded curve and
+$D\subset C$ is a divisor. A virtual class is constructed on the associated
+moduli space by viewing a pair as an object in the derived category of $X$. The
+resulting invariants are conjecturally equivalent, after universal
+transformations, to both the Gromov-Witten and DT theories of $X$. For
+Calabi-Yau 3-folds, the latter equivalence should be viewed as a wall-crossing
+formula in the derived category.
+  Several calculations of the new invariants are carried out. In the Fano case,
+the local contributions of nonsingular embedded curves are found. In the local
+toric Calabi-Yau case, a completely new form of the topological vertex is
+described.
+  The virtual enumeration of pairs is closely related to the geometry
+underlying the BPS state counts of Gopakumar and Vafa. We prove that our
+integrality predictions for Gromov-Witten invariants agree with the BPS
+integrality. Conversely, the BPS geometry imposes strong conditions on the
+enumeration of pairs.
+"
+21,0707.4296,"M. R. Schindler, D. Djukanovic, J. Gegelia, S. Scherer","Infrared renormalization of two-loop integrals and the chiral expansion
+  of the nucleon mass",10.1016/j.nuclphysa.2008.01.023,['hep-ph'],"  We describe details of the renormalization of two-loop integrals relevant to
+the calculation of the nucleon mass in the framework of manifestly
+Lorentz-invariant chiral perturbation theory using infrared renormalization. It
+is shown that the renormalization can be performed while preserving all
+relevant symmetries, in particular chiral symmetry, and that renormalized
+diagrams respect the standard power counting rules. As an application we
+calculate the chiral expansion of the nucleon mass to order O(q^6).
+"
+22,0707.4657,Sergey V. Shevchenko and Vladimir V. Tokarevsky,The Informational Conception and Basic Physics,,['physics.gen-ph'],"  In our previous arXiv papers (""The Information and the Matter"", v1, v5; more
+systematically the informational conception is presented in the paper ""The
+Information as Absolute"", 2010) it was rigorously shown that Matter in our
+Universe - and Universe as a whole - are some informational systems
+(structures), which exist as uninterruptedly transforming [practically]
+infinitesimal sub-sets of the absolutely infinite and fundamental set
+""Information"". Such a conception allows not only to clear essentially a number
+of metaphysical and epistemological problems in philosophy but, besides, allows
+to suggest a reasonable physical model. Since Matter in Universe is an
+informational system where any interaction between Matter's sub-structures,
+i.e. - particles and systems of the particles - happens always as an exchange
+by exclusively true information between these structures, the model is based on
+the conjecture that Matter is some analogue of computer. The conjecture, in
+turn, allows to introduce in the model the basic logical elements that
+constitute the material structures and support the informational exchange -
+i.e. the forces - between the structures. The model is experimentally testable
+and yet now makes be more clear a number of basic problems in special
+relativity, quantum mechanics, and, rather probably, in [now - in Newtonian]
+gravity.
+"
+23,0708.2198,"V. I. Danilov, A. V. Karzanov, G. A. Koshevoy","$B_2$-crystals: axioms, structure, models",,"['math.RT', 'math.CO']","  We present a list of ``local'' axioms and an explicit combinatorial
+construction for the regular $B_2$-crystals (crystal graphs of highest weight
+integrable modules over $U_q(sp_4)$). Also a new combinatorial model for these
+crystals is developed.
+"
+24,0708.2697,J. O'Dwyer and H. Osborn,"Epsilon Expansion for Multicritical Fixed Points and Exact
+  Renormalisation Group Equations",10.1016/j.aop.2007.10.005,"['hep-th', 'cond-mat.other']","  The Polchinski version of the exact renormalisation group equations is
+applied to multicritical fixed points, which are present for dimensions between
+two and four, for scalar theories using both the local potential approximation
+and its extension, the derivative expansion. The results are compared with the
+epsilon expansion by showing that the non linear differential equations may be
+linearised at each multicritical point and the epsilon expansion treated as a
+perturbative expansion. The results for critical exponents are compared with
+corresponding epsilon expansion results from standard perturbation theory. The
+results provide a test for the validity of the local potential approximation
+and also the derivative expansion. An alternative truncation of the exact RG
+equation leads to equations which are similar to those found in the derivative
+expansion but which gives correct results for critical exponents to order
+$\epsilon$ and also for the field anomalous dimension to order $\epsilon^2$. An
+exact marginal operator for the full RG equations is also constructed.
+"
+25,0708.3847,Marta Panizzut and Magnus Dehli Vigeland,Tropical Lines on Cubic Surfaces,,"['math.AG', 'math.CO']","  Given a tropical line $L$ and a smooth tropical surface $X$, we look at the
+position of $L$ on $X$. We introduce its primal and dual motif which are
+respectively a decorated graph and a subcomplex of the dual triangulation of
+$X$. They encode the combinatorial position of $L$ on $X$. We classify all
+possible motifs of tropical lines on general smooth tropical surfaces. This
+classification allows to give an upper bound for the number of tropical lines
+on a general smooth tropical surface with a given subdivision. We focus in
+particular on surfaces of degree three. As a concrete example, we look at
+tropical cubic surfaces dual to a fixed honeycomb triangulation, showing that a
+general surface contains exactly $27$ tropical lines.
+"
+26,0708.4250,James Belk and Francesco Matucci,Conjugacy and Dynamics in Thompson's Groups,10.1007/s10711-013-9853-2,['math.GR'],"  We give a unified solution to the conjugacy problem for Thompson's groups F,
+T, and V. The solution uses strand diagrams, which are similar in spirit to
+braids and generalize tree-pair diagrams for elements of Thompson's groups.
+Strand diagrams are closely related to piecewise-linear functions for elements
+of Thompson's groups, and we use this correspondence to investigate the
+dynamics of elements of F. Though many of the results in this paper are known,
+our approach is new, and it yields elegant proofs of several old results.
+"
+27,0709.1667,"Andrea Montanari, Federico Ricci-Tersenghi and Guilhem Semerjian","Solving Constraint Satisfaction Problems through Belief
+  Propagation-guided decimation",,"['cs.AI', 'cond-mat.dis-nn', 'cond-mat.stat-mech', 'cs.CC']","  Message passing algorithms have proved surprisingly successful in solving
+hard constraint satisfaction problems on sparse random graphs. In such
+applications, variables are fixed sequentially to satisfy the constraints.
+Message passing is run after each step. Its outcome provides an heuristic to
+make choices at next step. This approach has been referred to as `decimation,'
+with reference to analogous procedures in statistical physics.
+  The behavior of decimation procedures is poorly understood. Here we consider
+a simple randomized decimation algorithm based on belief propagation (BP), and
+analyze its behavior on random k-satisfiability formulae. In particular, we
+propose a tree model for its analysis and we conjecture that it provides
+asymptotically exact predictions in the limit of large instances. This
+conjecture is confirmed by numerical simulations.
+"
+28,0709.2797,Pramod K. Sharma,"Comments On "" Orbits of automorphism groups of fields""",,['math.AC'],"  Let $R$ be a commutative $k-$algebra over a field $k$. Assume $R$ is a
+noetherian, infinite, integral domain. The group of $k-$automorphisms of
+$R$,i.e.$Aut_k(R)$ acts in a natural way on $(R-k)$.In the first part of this
+article, we study the structure of $R$ when the orbit space $(R-k)/Aut_k(R)$ is
+finite.We note that most of the results, not particularly relevent to fields,
+in [1,\S 2] hold in this case as well. Moreover, we prove that $R$ is a field.
+In the second part, we study a special case of the Conjecture 2.1 in [1] : If
+$K/k$ is a non trivial field extension where $k$ is algebraically closed and
+$\mid (K-k)/Aut_k(K) \mid = 1$ then $K$ is algebraically closed. In the end, we
+give an elementary proof of [1,Theorem 1.1] in case $K$ is finitely generated
+over its prime subfield.
+"
+29,0709.4492,Daniel Reem,"Fun with ""Analysis I"": basic theorems in calculus revisited",,"['math.HO', 'math.CA', 'math.FA']","  This note tries to show that a re-examination of a first course in analysis,
+using the more sophisticated tools and approaches obtained in later stages, can
+be a real fun for experts, advanced students, etc. We start by going to the
+extreme, namely we present two proofs of the Extreme Value Theorem: ""the
+programmer proof"" that suggests a method (which is practical in down-to-earth
+settings) to approximate, to any required precision, the extreme values of the
+given function in a metric space setting, and an abstract space proof (""the
+level-set proof"") for semicontinuous functions defined on compact topological
+spaces. Next, in the intermediate part, we consider the Intermediate Value
+Theorem, generalize it to a wide class of discontinuous functions, and
+re-examine the meaning of the intermediate value property. The trek reaches the
+final frontier when we discuss the Uniform Continuity Theorem, generalize it,
+re-examine the meaning of uniform continuity, and find the optimal delta of the
+given epsilon. Have fun!
+"
+30,0710.1214,Robert S. Whitney,Shot-noise of quantum chaotic systems in the classical limit,10.1117/12.724670,"['cond-mat.mes-hall', 'nlin.CD']","  Semiclassical methods can now explain many mesoscopic effects (shot-noise,
+conductance fluctuations, etc) in clean chaotic systems, such as chaotic
+quantum dots. In the deep classical limit (wavelength much less than system
+size) the Ehrenfest time (the time for a wavepacket to spread to a classical
+size) plays a crucial role, and random matrix theory (RMT) ceases to apply to
+the transport properties of open chaotic systems.
+  Here we summarize some of our recent results for shot-noise (intrinsically
+quantum noise in the current through the system) in this deep classical limit.
+For systems with perfect coupling to the leads, we use a phase-space basis on
+the leads to show that the transmission eigenvalues are all 0 or 1 -- so
+transmission is noiseless [Whitney-Jacquod, Phys. Rev. Lett. 94, 116801 (2005),
+Jacquod-Whitney, Phys. Rev. B 73, 195115 (2006)]. For systems with
+tunnel-barriers on the leads we use trajectory-based semiclassics to extract
+universal (but non-RMT) shot-noise results for the classical regime [Whitney,
+Phys. Rev. B 75, 235404 (2007)].
+"
+31,0710.1594,Chandru Iyer and G.M. Prabhu,Time Dilation and the Equivalence of Inertial Frames,,['physics.gen-ph'],"  It is well known that simultaneity within an inertial frame is defined in
+relativity theory by a convention or definition. This definition leads to
+different simultaneities across inertial frames and the well known principle of
+relativity of simultaneity. The lack of a universal present implies the
+existence of past, present and future as a collection of events on a four
+dimensional manifold or continuum wherein three dimensions are space like and
+one dimension is time like. However, such a continuum precludes the possibility
+of evolution of future from the present as all events exist forever so to speak
+on the continuum with the tenses past, present and future merely being
+perceptions of different inertial frames. Such a far-reaching ontological
+concept, created by a mere convention, is yet to gain full acceptance. In this
+paper, we present arguments in favour of an absolute present, which means
+simultaneous events are simultaneous in all inertial frames, and subscribe to
+evolution of future from the present.
+"
+32,0710.2321,"Xavier Jacob (LAUM), Vladislav Aleshin (LAUM), Vincent Tournat (LAUM),
+  Philippe Leclaire (DRIVE), Walter Lauriks (KU Leuven), Vitalyi Gusev (LAUM,
+  LPEC)","Acoustic Probing of the Jamming Transition in an Unconsolidated Granular
+  Medium",10.1103/PhysRevLett.100.158003,"['physics.class-ph', 'cond-mat.soft']","  Experiments with acoustic waves guided along the mechanically free surface of
+an unconsolidated granular packed structure provide information on the
+elasticity of granular media at very low pressures that are naturally
+controlled by the gravitational acceleration and the depth beneath the surface.
+Comparison of the determined dispersion relations for guided surface acoustic
+modes with a theoretical model reveals the dependencies of the elastic moduli
+of the granular medium on pressure. The experiments confirm recent theoretical
+predictions that relaxation of the disordered granular packing through
+non-affine motion leads to a peculiar scaling of shear rigidity with pressure
+near the jamming transition corresponding to zero pressure. Unexpectedly, and
+in disagreement with the most of the available theories, the bulk modulus
+depends on pressure in a very similar way to the shear modulus.
+"
+33,0710.2625,Eli Glasner,On two problems concerning topological centers,,['math.DS'],"  Let G be an infinite discrete group and bG its Cech-Stone compactification.
+Using the well known fact that a free ultrafilter on an infinite set is
+nonmeasurable, we show that for each element p of the remainder bG G, left
+multiplication L_p:bG \to bG is not Borel measurable. Next assume that G is
+abelian. Let D \subset \ell^\infty(G)$ denote the subalgebra of distal
+functions on G and let G^D denote the corresponding universal distal (right
+topological group) compactification of G. Our second result is that the
+topological center of G^D (i.e. the set of p in G^D for which L_p:G^D \to G^D
+is a continuous map) is the same as the algebraic center and that for G=Z (the
+group of integers) this center coincides with the canonical image of G in G^D.
+"
+34,0710.5224,V. M. Burlakov,Ostwald Ripening on Nanoscale,,"['cond-mat.mtrl-sci', 'cond-mat.other']","  Applicability of classical Lifshitz-Slyozov theory of Ostwald ripening is
+analyzed and found limited by relatively large cluster sizes due to
+restrictions imposed by theoretical assumptions. An assumption about the steady
+state ripening regime poses an upper limit, while another, implicit assumption
+of continuous description poses a cluster size-dependent lower limit on the
+supersaturation level. These two limits mismatch for the clusters under certain
+size in the nanometer scale making the theory inapplicable. We present a more
+generic, molecular theory of Ostwald ripening, which reproduces classical
+Lifshitz-Slyozov and Wagner theories in appropriate extreme cases. This theory
+has a wider applicability than classical theories, especially at lower
+supersaturation levels, and is more suitable for nanoscale systems.
+"
+35,0710.5646,"Weicai Wu, Shouchuan Zhang, Jieqiong He, Peng Wang",On the Hopf Algebra of Rooted Trees,,"['math-ph', 'math.MP', 'math.QA']","  We find a formula to compute the number of the generators, which generate the
+$n$-filtered space of Hopf algebra of rooted trees, i.e. the number of
+equivalent classes of rooted trees with weight $n$. Applying Hopf algebra of
+rooted trees, we show that the analogue of Andruskiewitsch and Schneider's
+Conjecture is not true. The Hopf algebra of rooted trees and the enveloping
+algebra of the Lie algebra of rooted trees are two important examples of Hopf
+algebras. We give their representation and show that they have not any nonzero
+integrals. We structure their graded Drinfeld doubles and show that they are
+local quasitriangular Hopf algebras.
+"
+36,0710.5794,"Richard Cleve, Dmitry Gavinsky, David L. Yonge-Mallo",Quantum Algorithms for Evaluating MIN-MAX Trees,,['quant-ph'],"  We present a bounded-error quantum algorithm for evaluating Min-Max trees.
+For a tree of size N our algorithm makes N^{1/2+o(1)} comparison queries, which
+is close to the optimal complexity for this problem.
+"
+37,0710.5926,Shizuo Kaji,Mod 2 cohomology of 2-local finite groups of low rank,10.1215/kjm/1250281055,"['math.AT', 'math.GR']","  We determine the mod $2$ cohomology over the Steenrod algebra of the
+classifying spaces of the free loop groups $LG$ for compact groups $G=Spin(7)$,
+$Spin(8)$, $Spin(9)$, and $F_4$. Then, we show that they are isomorphic as
+algebras over the Steenrod algebra to the mod $2$ cohomology of the
+corresponding Chevalley groups of type $G(q)$, where $q$ is an odd prime power.
+In a similar manner, we compute the cohomology of the free loop space over
+$BDI(4)$ and show that it is isomorphic to that of $BSol(q)$ as algebras over
+the Steenrod algebra.
+"
+38,0711.1615,Yuri G. Zarhin,Homomorphisms of abelian varieties over finite fields,,"['math.AG', 'math.NT']","  These are notes of my lectures at the summer school ""Higher-dimensional
+geometry over finite fields"" in Goettingen, June--July 2007.
+  We present a proof of Tate's theorem on homomorphisms of abelian varieties
+over finite fields (including the $\ell=p$ case) that is based on a ""quaternion
+trick"". In fact, a a slightly stronger version of those theorems with ""finite
+coefficients"" is proven.
+"
+39,0711.1928,"A. Grishkov, D. Logachev",Duality of Anderson T-motives,,"['math.NT', 'math.AG']","  Let $M$ be a T-motive. We introduce the notion of duality for $M$. Main
+results of the paper (we consider uniformizable $M$ over $F_q[T]$ of rank $r$,
+dimension $n$, whose nilpotent operator $N$ is 0):
+  1. Algebraic duality implies analytic duality (Theorem 5). Explicitly, this
+means that the lattice of the dual of $M$ is the dual of the lattice of $M$,
+i.e. the transposed of a Siegel matrix of $M$ is a Siegel matrix of the dual of
+$M$.
+  2. Let $n=r-1$. There is a 1 -- 1 correspondence between pure T-motives (all
+they are uniformizable), and lattices of rank $r$ in $C^n$ having dual
+(Corollary 8.4).
+"
+40,0711.3497,Vladimir Nikiforov,The energy of C4-free graphs of bounded degree,,['math.CO'],"  Answering some questions of Gutman, we show that, except for four specific
+trees, every connected graph G of order n, with no cycle of order 4 and with
+maximum degree at most 3, has energy greater that its order. Here, the energy
+of a graph is the sum of the moduli of its eigenvalues. We give more general
+theorems and state two conjectures.
+"
+41,0711.3782,Gabriel Vigny,"Lelong-Skoda transform for compact Kaehler manifolds and
+  self-intersection inequalities",,['math.CV'],"  Let $X$ be a compact Kaehler manifold of dimension $k$ and $T$ be a positive
+closed current on $X$ of bidimension $(p,p)$ ($1\leq p < k-1$). We construct a
+continuous linear transform $\mathcal{L}_p(T)$ of $T$ which is a positive
+closed current on $X$ of bidimension $(k-1,k-1)$ which has the same Lelong
+numbers as $T$. We deduce from that construction self-intersection inequalities
+for positive closed currents of any bidegree.
+"
+42,0712.0398,"M. Trenti (1), M. Stiavelli (1,2) ((1) Stsci, (2) Jhu)","Cosmic Variance and Its Effect on the Luminosity Function Determination
+  in Deep High z Surveys",10.1086/528674,['astro-ph'],"  We study cosmic variance in deep high redshift surveys and its influence on
+the determination of the luminosity function for high redshift galaxies. For
+several survey geometries relevant for HST and JWST instruments, we
+characterize the distribution of the galaxy number counts. This is obtained by
+means of analytic estimates via the two point correlation function in extended
+Press-Schechter theory as well as by using synthetic catalogs extracted from
+N-body cosmological simulations of structure formation. We adopt a simple
+luminosity - dark halo mass relation to investigate the environment effects on
+the fitting of the luminosity function. We show that in addition to variations
+of the normalization of the luminosity function, a steepening of its slope is
+also expected in underdense fields, similarly to what is observed within voids
+in the local universe. Therefore, to avoid introducing artificial biases,
+caution must be taken when attempting to correct for field underdensity, such
+as in the case of HST UDF i-dropout sample, which exhibits a deficit of bright
+counts with respect to the average counts in GOODS. A public version of the
+cosmic variance calculator based on the two point correlation function
+integration is made available on the web.
+"
+43,0712.0641,Grenville J. Croll,The Natural Philosophy of Kazuo Kondo,,['math.HO'],"  Kazuo Kondo (1911-2001) was Chair of the Department of Mathematical
+Engineering at the University of Tokyo, Japan. Over a period of 50 years, he
+and a few colleagues wrote and published a voluminous series of papers and
+monographs on the applications of analytical geometry within a diverse range of
+subjects in the natural sciences. Inspired by Otto Fischer's attempt at a
+quaternionic unified theory in the late 1950's he adopted the mathematics of
+the revered Akitsugu Kawaguchi to produce his own speculative unified theory.
+The theory appears to successfully apply Kawaguchi's mathematics to the full
+range of natural phenomena, from the structure of fundamental particles to the
+geometry of living beings. The theories are testable and falsifiable. Kondo and
+his theories are now almost completely unknown and this paper serves as the
+barest introduction to his work
+"
+44,0712.2184,"Harry K. Hahn, Kay Schoenberger",The ordered distribution of natural numbers on the square root spiral,,['math.GM'],"  Natural numbers divisible by the same prime factor lie on defined spiral
+graphs which are running through the Square Root Spiral (also named as the
+Spiral of Theodorus or Wurzel Spirale or Einstein Spiral). Prime Numbers also
+clearly accumulate on such spiral graphs. And the square numbers 4, 9, 16, 25,
+36,... form a highly three-symmetrical system of three spiral graphs, which
+divides the square-root-spiral into three equal areas. A mathematical analysis
+shows that these spiral graphs are defined by quadratic polynomials. Fibonacci
+number sequences also play a part in the structure of the Square Root Spiral.
+Fibonacci Numbers divide the Square Root Spiral into areas and angle sectors
+with constant proportions. These proportions are linked to the golden mean (or
+golden section), which behaves as a self-avoiding-walk-constant in the
+lattice-like structure of the square root spiral.
+"
+45,0712.3891,Moses Fayngold,"The Dynamics of Relativistic Length Contraction and the Ehrenfest
+  Paradox",,['physics.class-ph'],"  Relativistic kinematics is usually considered only as a manifestation of
+pseudo-Euclidean (Lorentzian) geometry of space-time. However, as it is
+explicitly stated in General Relativity, the geometry itself depends on
+dynamics, specifically, on the energy-momentum tensor. We discuss a few
+examples, which illustrate the dynamical aspect of the length-contraction
+effect within the framework of Special Relativity. We show some pitfalls
+associated with direct application of the length contraction formula in cases
+when an extended object is accelerated. Our analysis reveals intimate
+connections between length contraction and the dynamics of internal forces
+within the accelerated system.
+  The developed approach is used to analyze the correlation between two
+congruent disks - one stationary and one rotating (the Ehrenfest paradox).
+Specifically, we consider the transition of a disk from the state of rest to a
+spinning state under the applied forces. It reveals the underlying physical
+mechanism in the corresponding transition from Euclidean geometry of stationary
+disk to Lobachevsky's (hyperbolic) geometry of the spinning disk in the process
+of its rotational boost. A conclusion is made that the rest mass of a spinning
+disk or ring of a fixed radius must contain an additional term representing the
+potential energy of non-Euclidean circumferential deformation of its material.
+Possible experimentally observable manifestations of Lobachevsky's geometry of
+rotating systems are discussed.
+"
+46,0712.4087,Alexander Berkovich,On the difference of partial theta functions,,"['math.NT', 'math.CO']","  Sums of the form add((-1)^n q^(n(n-1)/2) x^n, n>=0) are called partial theta
+functions. In his lost notebook, Ramanujan recorded many identities for those
+functions. In 2003, Warnaar found an elegant formula for a sum of two partial
+theta functions. Subsequently, Andrews and Warnaar established a similar result
+for the product of two partial theta functions. In this note, I discuss the
+relation between the Andrews-Warnaar identity and the (1986) product formula
+due to Gasper and Rahman. I employ nonterminating extension of Sears-Carlitz
+transformation for 3\phi_2 to provide a new elegant proof for a companion
+identity for the difference of two partial theta series. This difference
+formula first appeared in the work of Schilling-Warnaar (2002). Finally, I show
+that Schilling-Warnnar (2002) and Warnaar (2003) formulas are, in fact,
+equivalent.
+"
+47,0712.4280,Emil A. Yuzbashyan and Oleksandr Tsyplyatyev,Dynamics of emergent Cooper pairing at finite temperatures,10.1103/PhysRevB.79.132504,"['cond-mat.supr-con', 'cond-mat.mes-hall']","  We study the time evolution of a system of fermions with pairing interactions
+at a finite temperature. The dynamics is triggered by an abrupt increase of the
+BCS coupling constant. We show that if initially the fermions are in a normal
+phase, the amplitude of the BCS order parameter averaged over the Boltzman
+distribution of initial states exhibits damped oscillations with a relatively
+short decay time. The latter is determined by the temperature, the
+single-particle level spacing, and the ground state value of the BCS gap for
+the new coupling. In contrast, the decay is essentially absent when the system
+was in a superfluid phase before the coupling increase.
+"
+48,0801.1054,Andrea Surroca Ortiz,"Conjectural estimates on the Mordell-Weil and Tate-Shafarevich groups of
+  an abelian variety",,['math.NT'],"  We consider an abelian variety defined over a number field. We give
+conditional bounds for the order of its Tate-Shafarevich group, as well as
+conditional bounds for the N\'eron-Tate height of generators of its
+Mordell-Weil group. The bounds are implied by strong but nowadays classical
+conjectures, such as the Birch and Swinnerton-Dyer conjecture and the
+functional equation of the L-series. In particular, we improve and generalise a
+result by D. Goldfeld and L. Szpiro on the order of the Tate-Shafarevich group,
+and extends a conjecture of S. Lang on the canonical height of a system of
+generators of the free part of the Mordell-Weil group. The method is an
+extension of the algorithm proposed by Yu. Manin for finding a basis for the
+non-torsion rational points of an elliptic curve defined over the rationals.
+"
+49,0801.1441,"Harry K. Hahn, Robert Sachs",The distribution of prime numbers on the square root spiral,,['math.GM'],"  Prime Numbers clearly accumulate on defined spiral graphs,which run through
+the Square Root Spiral. These spiral graphs can be assigned to different
+spiral-systems, in which all spiral-graphs have the same direction of rotation
+and the same -- second difference -- between the numbers, which lie on these
+spiral-graphs. A mathematical analysis shows, that these spiral graphs are
+caused exclusively by quadratic polynomials. For example the well known Euler
+Polynomial x2+x+41 appears on the Square Root Spiral in the form of three
+spiral-graphs, which are defined by three different quadratic polynomials. All
+natural numbers,divisible by a certain prime factor, also lie on defined spiral
+graphs on the Square Root Spiral (or Spiral of Theodorus, or Wurzelspirale).
+And the Square Numbers 4, 9, 16, 25, 36 even form a highly three-symmetrical
+system of three spiral graphs, which divides the square root spiral into three
+equal areas. Fibonacci number sequences also play a part in the structure of
+the Square Root Spiral. With the help of the Number-Spiral, described by Mr.
+Robert Sachs, a comparison can be drawn between the Square Root Spiral and the
+Ulam Spiral. The shown sections of his study of the number spiral contain
+diagrams, which are related to my analysis results, especially in regards to
+the distribution of prime numbers.
+"
+50,0801.1475,"Gabjin Oh, Cheoljun Eom, Shlomo Havlin, Woo-Sung Jung, Fengzhong Wang,
+  H. Eugene Stanley, Seunghwan Kim",A Multifractal Analysis of Asian Foreign Exchange Markets,10.1140/epjb/e2012-20570-0,"['q-fin.ST', 'cond-mat.stat-mech', 'physics.soc-ph']","  We analyze the multifractal spectra of daily foreign exchange rates for
+Japan, Hong-Kong, Korea, and Thailand with respect to the United States Dollar
+from 1991 to 2005. We find that the return time series show multifractal
+spectrum features for all four cases. To observe the effect of the Asian
+currency crisis, we also estimate the multifractal spectra of limited series
+before and after the crisis. We find that the Korean and Thai foreign exchange
+markets experienced a significant increase in multifractality compared to
+Hong-Kong and Japan. We also show that the multifractality is stronge related
+to the presence of high values of returns in the series.
+"
+51,0801.2309,"A. Bekshaev, M.Soskin, M.Vasnetsov",Paraxial Light Beams with Angular Momentum,,"['physics.optics', 'physics.gen-ph']","  Fundamental and applied concepts concerning the ability of light beams to
+carry a certain mechanical angular momentum with respect to the propagation
+axis are reviewed and discussed. Following issues are included:
+  Historical reference;
+  Angular momentum of a paraxial beam and its constituents;
+  Spin angular momentum and paradoxes associated with it;
+  Orbital angular momentum;
+  Circularly-spiral beams: examples and methods of generation;
+  Orbital angular momentum and the intensity moments;
+  Symmetry breakdown and decomposition of the orbital angular momentum;
+  Mechanical models of the vortex light beams;
+  Mechanical action of the beam angular momentum;
+  Rotational Doppler effect, its manifestation in the image rotation;
+  Spectrum of helical harmonics and associated problems;
+  Non-collinear rotational Doppler effect;
+  Properties of a beam forcedly rotating around its own axis.
+  Research prospects and ways of practical utilization of optical beams with
+angular momentum.
+"
+52,0801.3537,Esther Gruenhut and Saharon Shelah,Uniforming n-place functions on ds(alpha),,['math.LO'],"  In this paper the Erdos-Rado theorem is generalized to the class of well
+founded trees.
+"
+53,0801.3669,"Boaz Barak, Mohammad Mahmoody","Merkle's Key Agreement Protocol is Optimal: An $O(n^2)$ Attack on any
+  Key Agreement from Random Oracles",,['cs.CC'],"  We prove that every key agreement protocol in the random oracle model in
+which the honest users make at most $n$ queries to the oracle can be broken by
+an adversary who makes $O(n^2)$ queries to the oracle. This improves on the
+previous $\widetilde{\Omega}(n^6)$ query attack given by Impagliazzo and Rudich
+(STOC '89) and resolves an open question posed by them.
+  Our bound is optimal up to a constant factor since Merkle proposed a key
+agreement protocol in 1974 that can be easily implemented with $n$ queries to a
+random oracle and cannot be broken by any adversary who asks $o(n^2)$ queries.
+"
+54,0801.3680,"Boaz Barak, Mohammad Mahmoody",Lower Bounds on Signatures from Symmetric Primitives,,"['cs.CC', 'cs.CR']","  We show that every construction of one-time signature schemes from a random
+oracle achieves black-box security at most $2^{(1+o(1))q}$, where $q$ is the
+total number of oracle queries asked by the key generation, signing, and
+verification algorithms. That is, any such scheme can be broken with
+probability close to $1$ by a (computationally unbounded) adversary making
+$2^{(1+o(1))q}$ queries to the oracle. This is tight up to a constant factor in
+the number of queries, since a simple modification of Lamport's one-time
+signatures (Lamport '79) achieves $2^{(0.812-o(1))q}$ black-box security using
+$q$ queries to the oracle.
+  Our result extends (with a loss of a constant factor in the number of
+queries) also to the random permutation and ideal-cipher oracles. Since the
+symmetric primitives (e.g. block ciphers, hash functions, and message
+authentication codes) can be constructed by a constant number of queries to the
+mentioned oracles, as corollary we get lower bounds on the efficiency of
+signature schemes from symmetric primitives when the construction is black-box.
+This can be taken as evidence of an inherent efficiency gap between signature
+schemes and symmetric primitives.
+"
+55,0801.3697,George I. Bell,The mathematics of Septoku,,"['math.CO', 'cs.DM', 'math.GM']","  Septoku is a Sudoku variant invented by Bruce Oberg, played on a hexagonal
+grid of 37 cells. We show that up to rotations, reflections, and symbol
+permutations, there are only six valid Septoku boards. In order to have a
+unique solution, we show that the minimum number of given values is six. We
+generalize the puzzle to other board shapes, and devise a puzzle on a
+star-shaped board with 73 cells with six givens which has a unique solution. We
+show how this puzzle relates to the unsolved Hadwiger-Nelson problem in
+combinatorial geometry.
+"
+56,0802.0457,Sergey Lysenko,"Geometric theta-lifting for the dual pair GSp_{2n}, GSO_{2m}",,"['math.RT', 'math.AG']","  Let X be a smooth projective curve over an algebraically closed field of
+characteristic >2. Consider the dual pair H=GSO_{2m}, G=GSp_{2n} over X, where
+H splits over an etale two-sheeted covering of X. Write Bun_G and Bun_H for the
+stacks of G-torsors and H-torsors on X. We show that for m\le n (respectively,
+for m>n) the theta-lifting functor from D(Bun_H) to D(Bun_G) (respectively,
+from D(Bun_G) to D(Bun_H)) commutes with Hecke functors with respect to a
+morphism of the corresponding L-groups involving the SL_2 of Arthur. So, they
+realize the geometric Langlands functoriality for the corresponding morphisms
+of L-groups.
+  As an application, we prove a particular case of the geometric Langlands
+conjectures for GSp_4. Namely, we construct the automorphic Hecke eigensheaves
+on Bun_{GSp_4} corresponding to the endoscopic local systems on X.
+"
+57,0802.1056,Miloje M. Rakocevic,Genetic Code: Four-Codon and Non-Four-Codon Degeneracy,,"['q-bio.BM', 'q-bio.GN']","  In this work it is shown that 20 canonical amino acids (AAs) within genetic
+code appear to be a whole system with strict distinction in Genetic Code Table
+(GCT) into some different quantums: 20, 23, 61 amino acid molecules. These
+molecules distinction is followed by specific balanced atom number and/or
+nucleon number distinctions within those molecules. In this second version two
+appendices are added; also a new version of Periodic system of numbers, whose
+first verson is given in arXiv:1107.1998 [q-bio.OT].
+"
+58,0802.1651,Roman Travkin,Mirabolic Robinson-Schensted-Knuth correspondence,,"['math.AG', 'math.CO']","  The set of orbits of $GL(V)$ in $Fl(V)\times Fl(V)\times V$ is finite, and is
+parametrized by the set of certain decorated permutations in a work of Solomon.
+We describe a Mirabolic RSK correspondence (bijective) between this set of
+decorated permutations and the set of triples: a pair of standard Young
+tableaux, and an extra partition. It gives rise to a partition of the set of
+orbits into combinatorial cells. We prove that the same partition is given by
+the type of a general conormal vector to an orbit. We conjecture that the same
+partition is given by the bimodule Kazhdan-Lusztig cells in the bimodule over
+the Iwahori-Hecke algebra of $GL(V)$ arising from $Fl(V)\times Fl(V)\times V$.
+We also give conjectural applications to the classification of unipotent
+mirabolic character sheaves on $GL(V)\times V$.
+"
+59,0802.2615,"Filipe C. Mena, Jose Natario",Matching stationary spacetimes,10.1016/j.geomphys.2008.12.002,['gr-qc'],"  Using the quasi-Maxwell formalism, we derive the necessary and sufficient
+conditions for the matching of two stationary spacetimes along a stationary
+timelike hypersurface, expressed in terms of the gravitational and
+gravitomagnetic fields and the 2-dimensional matching surface on the space
+manifold. We prove existence and uniqueness results to the matching problem for
+stationary perfect fluid spacetimes with spherical, planar, hyperbolic and
+cylindrical symmetry. Finally, we find an explicit interior for the cylindrical
+analogue of the NUT spacetime.
+"
+60,0802.2889,D.F.Roscoe,A complete Leibniz-Mach cosmology: From the Leibniz Question to MOND,,['astro-ph'],"  The claim that the large scale structure of the Universe is hierarchical has
+a very long history going back at least to Charlier's papers of the early 20th
+century. In recent years, the debate has centered largely on the works of Sylos
+Labini, Joyce, Pietronero and others, who have made the quantative claim that
+the large scale structure of the Universe is quasi-fractal with fractal
+dimension $D\approx 2$. There is now a concensus that this is the case on
+medium scales, with the main debate revolving around what happens on the scales
+of the largest available modern surveys.
+  This paper, which is a realization of a worldview which is deeply rooted in
+the ideas of Leibniz and Mach shows, as a very special case of a general
+formalism, that such a fractal $D\approx 2$ world is necessarily a world of
+dynamical equilibrium.
+  We use the cosmology to write down a simple galaxy model as an arbitrary
+spherically symmetric bounded perturbation of the $D\approx 2$ equilibrium
+environment. A necessary mass continuity condition on the perturbation boundary
+between galactic interior and the exterior environment immediately defines that
+boundary as a critical acceleration boundary with $a_0 \sim 4\pi G \Sigma_F$
+where $a_0$ is the critical acceleration parameter and $\Sigma_F$ is the
+characteristic mass surface density of the $D \approx 2$ fractal environment.
+The MOND acceleration condition $V_0^2/R_0 = a_0$ for circular orbits on the
+critical boundary follows in a straightforward manner.
+"
+61,0803.0437,Tomohiro Yamada,On finiteness of odd superperfect numbers,10.5802/jtnb.1121,['math.NT'],"  Some new results concerning the equation $\sigma(N)=aM, \sigma(M)=bN$ are
+proved. As a corollary, there are only finitely many odd superperfect numbers
+with a fixed number of distinct prime factors.
+"
+62,0803.1387,Christian Pries,"Quasi-Minimal, Pseudo-Minimal Systems and Dense Orbits",,"['math.DS', 'math.GN']","  We give a short discussion about a weaker form of minimality (called
+quasi-minimality). We call a system quasi-minimal if all dense orbits form an
+open set. It is hard to find examples which are not already minimal. Since
+elliptic behaviour makes them minimal, these systems are regarded as parabolic
+systems. Indeed, we show that a quasi-minimal homeomorphism on a manifold is
+not expansive (hyperbolic).
+"
+63,0803.2424,Alexandre I.Danilenko and Cesar E. Silva,Ergodic Theory: Nonsingular Transformations,,['math.DS'],"  This survey is an update of the 2008 version, with recent developments and
+new references.
+"
+64,0803.2781,Paul Buckingham and Victor Snaith,Functoriality of the canonical fractional Galois ideal,10.4153/CJM-2010-054-1,['math.KT'],"  The fractional Galois ideal of [Victor P. Snaith, Stark's conjecture and new
+Stickelberger phenomena, Canad. J. Math. 58 (2) (2006) 419--448] is a
+conjectural improvement on the higher Stickelberger ideals defined at negative
+integers, and is expected to provide non-trivial annihilators for higher
+K-groups of rings of integers of number fields. In this article, we extend the
+definition of the fractional Galois ideal to arbitrary (possibly infinite and
+non-abelian) Galois extensions of number fields under the assumption of Stark's
+conjectures, and prove naturality properties under canonical changes of
+extension. We discuss applications of this to the construction of ideals in
+non-commutative Iwasawa algebras.
+"
+65,0803.3150,Frans Jacobs and Serge Galam,"Two opinions dynamics generated by inflexibles and non-contrarian and
+  contrarian floaters",,['physics.soc-ph'],"  We assume a community whose members adopt one of two opinions $A$ or $B$.
+Each member appears as an inflexible, or as a non-contrarian or contrarian
+floater. An inflexible sticks to its opinion, whereas a floater may change into
+a floater of the alternative opinion. The occurrence of this change is governed
+by the local majority rule: members meet in groups of a fixed size, and a
+floater then changes its opinion provided it is a minority in the group.
+Subsequently, a non-contrarian floater keeps the opinion as adopted under the
+local majority rule, whereas a contrarian floater adopts the alternative
+opinion. Whereas the effects of on the one hand inflexibles and on the other
+hand non-contrarians and contrarians have previously been studied seperately,
+the current approach allows us to gain insight in the effect of their combined
+presence in a community. Given fixed proportions of inflexibles $(\alpha_{A},
+\alpha_{B})$ for the two opinions, and fixed fractions of contrarians
+$(\gamma_{A}, \gamma_{B})$ among the $A$ and $B$ floaters, we derive the update
+equation $p_{t+1}$ for the overall support for opinion $A$ at time $t+1$, given
+$p_{t}$. The update equation is derived respectively for local group sizes 1, 2
+and 3. The associated dynamics generated by repeated local updates is then
+determined to identify its asymptotic steady configuration. The full opinion
+flow diagram is thus obtained, showing conditions in terms of the parameters
+for each opinion to eventually win the competing dynamics. Various dynamical
+scenarios are thus exhibited, and it is derived that relatively small densities
+of inflexibles allow for more variation in the qualitative outcome of the
+dynamics than higher densities of inflexibles.
+"
+66,0803.3276,Aleks Kleyn,Lorentz Transformation and General Covariance Principle,,"['math-ph', 'math.MP']","  I tell about different mathematical tool that is important in general
+relativity. The text of the book includes definition of geometrical object,
+concept of reference frame, geometry of metric-affinne manifold. Using this
+concept I learn few physical applications: dynamics and Lorentz transformation
+in gravitational fields, Doppler shift.
+  A reference frame in event space is a smooth field of orthonormal bases.
+Every reference frame is equipped by anholonomic coordinates. Using anholonomic
+coordinates allows to find out relative speed of two observers and appropriate
+Lorentz transformation. Synchronization of a reference frame is an anholonomic
+time coordinate. Simple calculations show how synchronization influences time
+measurement in the vicinity of the Earth. Measurement of Doppler shift from the
+star orbiting the black hole helps to determine mass of the black hole.
+  We call a manifold with torsion and nonmetricity the metric\hyph affine
+manifold. The nonmetricity leads to a difference between the auto parallel line
+and the extreme line, and to a change in the expression of the Frenet transport
+and moving basis. The torsion leads to a change in the Killing equation. We
+also need to add a similar equation for the connection.
+  The analysis of the Frenet transport leads to the concept of the Cartan
+transport and an introduction of the connection compatible with the metric
+tensor. The dynamics of a particle follows to the Cartan transport. We need
+additional physical constraints to make a nonmetricity observable. Learning how
+torsion influences on tidal force reveals similarity between tidal equation for
+geodesic and the Killing equation of second type.
+"
+67,0804.0057,Igor Nikolaev,Hilbert 12th problem and measured foliations,,"['math.NT', 'math.OA']","  Yu. I. Manin conjectured that the maximal abelian extensions of the real
+quadratic number fields are generated by the pseudo-lattices with real
+multiplication. We prove this conjecture using theory of measured foliations on
+the modular curves.
+"
+68,0804.1296,Sascha Kurz and Reinhard Laue,Bounds for the minimum diameter of integral point sets,,['math.CO'],"  Geometrical objects with integral sides have attracted mathematicians for
+ages. For example, the problem to prove or to disprove the existence of a
+perfect box, that is, a rectangular parallelepiped with all edges, face
+diagonals and space diagonals of integer lengths, remains open. More generally
+an integral point set $\mathcal{P}$ is a set of $n$ points in the
+$m$-dimensional Euclidean space $\mathbb{E}^m$ with pairwise integral distances
+where the largest occurring distance is called its diameter. From the
+combinatorial point of view there is a natural interest in the determination of
+the smallest possible diameter $d(m,n)$ for given parameters $m$ and $n$. We
+give some new upper bounds for the minimum diameter $d(m,n)$ and some exact
+values.
+"
+69,0804.1956,Nuno Luzia,The Hausdorff dimension of self-affine Sierpinski sponges,,['math.DS'],"  We compute the Hausdorff dimension of limit sets generated by 3-dimensional
+self-affine mappings with diagonal matrices of the form A_{ijk}=Diag(a_{ijk},
+b_{ij}, c_{i}), where 0<a_{ijk}\le b_{ij}\le c_i<1. By doing so we show that
+the variational principle for the dimension holds for this class.
+"
+70,0804.2562,"J.-R. Chazottes, G. Keller",Pressure and Equilibrium States in Ergodic Theory,,"['math.DS', 'math.HO']","  Our goal is to present the basic results on one-dimensional Gibbs and
+equilibrium states viewed as special invariant measures on symbolic dynamical
+systems, and then to describe without technicalities a sample of results they
+allowed to obtain for certain differentiable dynamical systems. We hope that
+this contribution will illustrate the symbiotic relationship between ergodic
+theory and statistical mechanics, and also information theory.
+"
+71,0804.4451,Jian Ma and Zengqi Sun,Dependence Structure Estimation via Copula,,"['cs.LG', 'cs.IR', 'stat.ME']","  Dependence strucuture estimation is one of the important problems in machine
+learning domain and has many applications in different scientific areas. In
+this paper, a theoretical framework for such estimation based on copula and
+copula entropy -- the probabilistic theory of representation and measurement of
+statistical dependence, is proposed. Graphical models are considered as a
+special case of the copula framework. A method of the framework for estimating
+maximum spanning copula is proposed. Due to copula, the method is irrelevant to
+the properties of individual variables, insensitive to outlier and able to deal
+with non-Gaussianity. Experiments on both simulated data and real dataset
+demonstrated the effectiveness of the proposed method.
+"
+72,0805.1293,Avik Chakraborty,Testability of Reversible Iterative Logic Arrays,,['cs.OH'],"  Iterative Logic Arrays (ILAs) are ideal as VLSI sub-systems because of their
+regular structure and its close resemblance with FPGAs (Field Programmable Gate
+Arrays). Reversible circuits are of interest in the design of very low power
+circuits where energy loss implied by high frequency switching is not of much
+consideration. Reversibility is essential for Quantum Computing. This paper
+examines the testability of Reversible Iterative Logic Arrays (ILAs) composed
+of reversible k-CNOT gates. For certain ILAs it is possible to find a test set
+whose size remains constant irrespective of the size of the ILA, while for
+others it varies with array size. Former type of ILAs is known as
+Constant-Testable, i.e. C-Testable. It has been shown that Reversible Logic
+Arrays are C-Testable and size of test set is equal to number of entries in
+cells truth table implying that the reversible ILAs are also Optimal-Testable,
+i.e. O-Testable. Uniform-Testability, i.e. U-Testability has been defined and
+Reversible Heterogeneous ILAs have been characterized as U-Testable. The test
+generation problem has been shown to be related to certain properties of cycles
+in a set of graphs derived from cell truth table. By careful analysis of these
+cycles an efficient test generation technique that can be easily converted to
+an ATPG program has been presented for both 1-D and 2D ILAs. The same
+algorithms can be easily extended for n-Dimensional Reversible ILAs.
+"
+73,0805.1481,Jaykov Foukzon,"Paraconsistent First-Order Logic with infinite hierarchy levels of
+  contradiction $LP^\#_{\omega}$. Axiomatical system $HST^\#_{\omega}$, as
+  paraconsistent generalization of Hrbacek set theory HST",,['math.LO'],"  In this paper paraconsistent first-order logic LP^{#}_{\omega} with infinite
+hierarchy levels of contradiction is proposed. Corresponding paraconsistent set
+theory KSth^{#}_{\omega} is discussed.Axiomatical system HST^{#}_{\omega} as
+paraconsistent generalization of Hrbacek set theory HST is considered.
+"
+74,0805.2060,Marcos Craizer,Asymptotic Nets and Discrete Affine Surfaces with Indefinite Metric,,['math.DG'],"  Asymptotic net is an important concept in discrete differential geometry. In
+this paper, we show that we can associate affine discrete geometric concepts to
+an arbitrary non-degenerate asymptotic net. These concepts include discrete
+affine area, mean curvature, normal and co-normal vector fields and cubic form,
+and they are related by structural and compatibility equations. We consider
+also the particular cases of affine minimal surfaces and affine spheres.
+"
+75,0805.3666,Andrey Pereverzev and Eric R. Bittner,"On the derivation of exact eigenstates of the generalized squeezing
+  operator",,['quant-ph'],"  We construct the states that are invariant under the action of the
+generalized squeezing operator $\exp{(z{a^{\dagger k}}-z^*a^k)}$ for arbitrary
+positive integer $k$. The states are given explicitly in the number
+representation. We find that for a given value of $k$ there are $k$ such
+states. We show that the states behave as $n^{-k/4}$ when occupation number
+$n\to\infty$. This implies that for any $k\geq3$ the states are normalizable.
+For a given $k$, the expectation values of operators of the form $(a^{\dagger}
+a)^j$ are finite for positive integer $j < (k/2-1)$ but diverge for integer
+$j\geq (k/2-1)$. For $k=3$ we also give an explicit form of these states in the
+momentum representation in terms of Bessel functions.
+"
+76,0806.0557,"Qin Li, Chengqing Li, Chunhui Wu, Dongyang Long, Changji Wang",An efficient and provably secure arbitrated quantum signature scheme,,"['quant-ph', 'cs.CR']","  In this paper, an efficient arbitrated quantum signature scheme is proposed
+by combining quantum cryptographic techniques and some ideas in classical
+cryptography. In the presented scheme, the signatory and the receiver can share
+a long-term secret key with the arbitrator by utilizing the key together with a
+random number. While in previous quantum signature schemes, the key shared
+between the signatory and the arbitrator or between the receiver and the
+arbitrator could be used only once, and thus each time when a signatory needs
+to sign, the signatory and the receiver have to obtain a new key shared with
+the arbitrator through a quantum key distribution protocol. Detailed
+theoretical analysis shows that the proposed scheme is efficient and provably
+secure.
+"
+77,0806.0664,E. Lopez-Sandoval,"Classical analysis of the rotational dynamic of spiral galaxies: Quo
+  Vadis Dark Matter?",,['astro-ph'],"  In this paper we study a stellar dynamic model for the stars'
+rotational-dynamics, with a distribution of its own mass, rotating around its
+center with a higher density, like spiral galaxies happen, by means of a
+classical calculus of the rotation velocities of a particle around its
+rotational axis, inside a smoothed distribution of matter. The stars are
+supposed to be particles and their distribution in the galaxy is modelled as a
+matter distribution inversely proportional to its distance from its center. Two
+kinds of matter distribution are supposed: one with constant density, and other
+with radial distribution. Two types of galaxy symmetry are also considered:
+spherical and oblate ellipsoidal. Using only classical mechanics arguments it
+is shown that the calculated velocity distribution inside the galaxy is similar
+to that obtained from astronomical observations, without the necessity of
+suppose the existence of dark matter or other phenomena.
+"
+78,0806.0978,Zoran \v{S}koda,Twisted exterior derivatives for universal enveloping algebras I,,"['math.QA', 'math.RA']","  Consider any representation $\phi$ of a finite-dimensional Lie algebra $g$ by
+derivations of the completed symmetric algebra $\hat{S}(g^*)$ of its dual.
+Consider the tensor product of $\hat{S}(g^*)$ and the exterior algebra
+$\Lambda(g)$. We show that the representation $\phi$ extends canonically to the
+representation $\tilde\phi$ of that tensor product algebra. We construct an
+exterior derivative on that algebra, giving rise to a twisted version of the
+exterior differential calculus with the enveloping algebra in the role of the
+coordinate algebra. In this twisted version, the commutators between the
+noncommutative differentials and coordinates are formal power series in partial
+derivatives. The square of the corresponding exterior derivative is zero like
+in the classical case, but the Leibniz rule is deformed.
+"
+79,0806.1188,"Marc Culler (University of Illinois at Chicago) Peter B. Shalen
+  (University of Illinois at Chicago)",Four-free groups and hyperbolic geometry,10.1112/jtopol/jtr028,['math.GT'],"  We give new information about the geometry of closed, orientable hyperbolic
+3-manifolds with 4-free fundamental group. As an application we show that such
+a manifold has volume greater than 3.44. This is in turn used to show that if M
+is a closed orientable hyperbolic 3-manifold such that vol M < 3.44, then
+H_1(M;Z/2Z) has dimension at most 7.
+"
+80,0806.2361,Jorma Jormakka,On the zeros of the Riemann zeta function,,['math.GM'],"  In 2008 I thought I found a proof of the Riemann Hypothesis, but there was an
+error. In the Spring 2020 I believed to have fixed the error, but it cannot be
+fixed. I describe here where the error was. It took me several days to find the
+error in a careful checking before a possible submission to a payable review
+offered by one leading journal. There were three simple lemmas and one simple
+theorem, all were correct, yet there was an error: what Lemma 2 proved was not
+exactly what Lemma 3 needed. So, it was the connection of the lemmas. This
+paper came out empty, but I have found a different proof of the Riemann
+Hypothesis and it seems so far correct. In the discussion at the end of this
+paper I raise a matter that I think is of importance to the review process in
+mathematics.
+"
+81,0806.3026,Jaykov Foukzon,"Distributional Schwarzschild Geometry from nonsmooth regularization via
+  Horizon. Disributional Rindler spacetime with disributional Levi-Civit\`a
+  connection induced vacuum dominance.Unruh effect revisited",10.4236/jhepgc.2018.42023,['physics.gen-ph'],"  In this paper we leave the neighborhood of the singularity at the origin and
+turn to the singularity at the horizon. Using nonlinear superdistributional
+geometry and supergeneralized functions it seems possible to show that the
+horizon singularity is not only a coordinate singularity without leaving
+Schwarzschild coordinates. However the Tolman formula for the total energy $E$
+of a static and asymptotically flat spacetime,gives $E=mc^2$, as it should be.
+New class Colombeau solutions to Einstein field equations is obtained.New class
+Colombeau solutions to Einstein field equations is obtained. The vacuum energy
+density of free scalar quantum field ${\Phi}$ with a distributional background
+spacetime also is considered.It has been widely believed that, except in very
+extreme situations, the influence of acceleration on quantum fields should
+amount to just small, sub-dominant contributions. Here we argue that this
+belief is wrong by showing that in a Rindler distributional background
+spacetime with distributional Levi-Civit\`a connection the vacuum energy of
+free quantum fields is forced, by the very same background distributional
+space-time such a Rindler distributional background space-time, to become
+dominant over any classical energy density component.This semiclassical gravity
+effect finds its roots in the singular behavior of quantum fields on a Rindler
+distributional space-times with distributional Levi-Civit\`a connection. In
+particular we obtain that the vacuum fluctuations $<{\Phi}^2({\delta})>$ have a
+singular behavior at a Rindler horizon $\delta = 0$.Therefore sufficiently
+strongly accelerated observer burns up near the Rindler horizon. Thus
+Polchinski account does not violate of the Einstein equivalence principle.
+"
+82,0807.0471,Tony J. Puthenpurakal,"Complete intersection Approximation, Dual Filtrations and Applications",,"['math.AC', 'math.AG']","  We give a two step method to study certain questions regarding associated
+graded module of a Cohen-Macaulay (CM) module $M$ w.r.t an
+$\mathfrak{m}$-primary ideal $\mathfrak{a}$ in a complete Noetherian local ring
+$(A,\mathfrak{m})$. The first step, we call it complete intersection
+approximation, enables us to reduce to the case when both $A$, $
+G_\mathfrak{a}(A) = \bigoplus_{n \geq 0} \mathfrak{a}^n/\mathfrak{a}^{n+1} $
+are complete intersections and $M$ is a maximal CM $A$-module. The second step
+consists of analyzing the classical filtration $\{Hom_A(M,\mathfrak{a}^n)
+\}_{\mathbb{Z}}$ of the dual $Hom_A(M,A)$. We give many applications of this
+point of view. For instance let $(A,\mathfrak{m})$ be equicharacteristic and
+CM. Let $a(G_\mathfrak{a}(A))$ be the $a$-invariant of $G_\mathfrak{a}(A)$. We
+prove:
+  1. $a(G_\mathfrak{a}(A)) = -\dim A$ iff $\mathfrak{a}$ is generated by a
+regular sequence.
+  2. If $\mathfrak{a}$ is integrally closed and $a(G_\mathfrak{a}(A)) = -\dim A
++ 1$ then $\mathfrak{a}$ has minimal multiplicity.
+  We extend to modules a result of Ooishi relating symmetry of $h$-vectors. As
+another application
+  we prove a conjecture of Itoh, if $A$ is a CM local ring and
+  $\mathfrak{a}$ is a normal ideal with $e_3^\mathfrak{a}(A) = 0$ then
+$G_\mathfrak{a}(A)$ is CM.
+"
+83,0807.0487,"J. Vidal, S. Dusuel, K. P. Schmidt",Low-energy effective theory of the toric code model in a parallel field,10.1103/PhysRevB.79.033109,"['cond-mat.other', 'hep-lat', 'hep-th', 'quant-ph']","  We determine analytically the phase diagram of the toric code model in a
+parallel magnetic field which displays three distinct regions. Our study relies
+on two high-order perturbative expansions in the strong- and weak-field limit,
+as well as a large-spin analysis. Calculations in the topological phase
+establish a quasiparticle picture for the anyonic excitations. We obtain two
+second-order transition lines that merge with a first-order line giving rise to
+a multicritical point as recently suggested by numerical simulations. We
+compute the values of the corresponding critical fields and exponents that
+drive the closure of the gap. We also give the one-particle dispersions of the
+anyonic quasiparticles inside the topological phase.
+"
+84,0807.1607,Naoyuki Koike,"On equifocal submanifolds with non-flat section in symmetric spaces of
+  rank two",,['math.DG'],"  In this paper, we show that there exists no equifocal submanifold with
+non-flat section in four irreducible simply connected symmetric spaces of
+compact type and rank two. Also, we show a fact for the sections of equifocal
+submanifolds with non-flat section in other irreducible simply connected
+symmetric spaces of compact type and rank two.
+"
+85,0807.1793,Dhananjay P. Mehendale,On Entanglement and Separability,,['math.GM'],"  We present a new necessary and sufficient condition to determine the
+entanglement status of an arbitrary N-qubit quantum state (maybe pure or mixed)
+represented by a density matrix. A necessary condition satisfied by separable
+bipartite quantum states was obtained by A. Peres, [1]. A. Peres showed that if
+a bipartite state represented by the density matrix is separable then its
+partial transpose is positive semidefinite and has no negative eigenvalues. In
+other words, if the partial transpose is not positive semidefinite and so one
+or more of its eigenvalues are negative then the state represented by the
+corresponding density matrix is entangled. It was then shown by M. Horodecki
+et.al, [2], that this necessary condition is also sufficient for two-by-two and
+two-by-three dimensional systems. However, in other dimensions, it was shown by
+P. Horodecki, [3], that the criterion due to A. Peres is not sufficient. In
+this paper, we develop a new approach and a new criterion for deciding the
+entanglement status of the states represented by the density matrices
+corresponding to N-qubit systems. We begin with a 2-qubit case and then show
+that these results for 2-qubit systems can be extended to N-qubit systems by
+proceeding along similar lines. We discuss few examples to illustrate the
+method proposed in this paper for testing the entanglement status of few
+density matrices.
+"
+86,0807.3054,"Sofiane Bouarroudj, Pavel Grozman, Dimitry Leites",Deformations of symmetric simple modular Lie (super)algebras,,['math.RT'],"  We say that a~Lie (super)algebra is ``symmetric"" if with every root (with
+respect to the maximal torus) it has its opposite of the same multiplicity.
+Over algebraically closed fields of positive characteristics we describe the
+deforms (results of deformations) of all known simple finite-dimensional
+symmetric Lie (super)algebras of rank $<9$, except for superizations of the Lie
+algebras with ADE root systems.
+  The moduli of deformations of any Lie superalgebra constitute a supervariety.
+Any infinitesimal deformation given by any odd cocycle is integrable with an
+odd parameter running over a~supervariety. All deforms corresponding to odd
+cocycles are new. Among new results are classification of the deforms of the
+29-dimensional Brown algebra in characteristic 3, of Weisfeiler-Kac algebras
+and orthogonal Lie algebras without Cartan matrix in characteristic 2.
+  For the Lie (super)algebras considered, all cocycles are integrable, the
+deforms corresponding to the weight cocycles are usually linear in the
+parameter. Problem: describe isomorphic deforms.
+  Appendix: For several modular analogs of complex simple Lie algebras, and
+simple Lie algebras indigenous to characteristics 3 and 2, we describe the
+space of cohomology with trivial coefficients. We show that the natural
+multiplication in this space is very complicated.
+"
+87,0807.3868,"Salim Bouzebda (LMAC), Nabil Nessigha (LMAC)","On the strong approximation and functional limit laws for the increments
+  of the non-overlapping k-spacings processes",,"['math.PR', 'math.ST', 'stat.TH']","  The first aim of the present paper, is to establish strong approximations of
+the uniform non-overlapping k-spacings process extending the results of Aly et
+al. (1984). Our methods rely on the invariance principle in Mason and van Zwet
+(1987). The second goal, is to generalize the Dindar (1997) results for the
+increments of the spacings quantile process to the uniforme non-overlapping
+k-spacings quantile process. We apply the last result to characterize the limit
+laws of functionals of the increments k-spacings quantile process.
+"
+88,0807.4709,Roman Sverdlov,Bosonic Fields in Causal Set Theory,10.1007/s10773-021-04772-6,['physics.gen-ph'],"  In this paper we will define a Lagrangian for scalar and gauge fields on
+causal sets, based on the selection of an Alexandrov set in which the
+variations of appropriate expressions in terms of either the scalar field or
+the gauge field holonomies around suitable loops take on the least value. For
+these fields, we will find that the values of the variations of these
+expressions define Lagrangians in covariant form.
+"
+89,0808.0019,Erwan Brugall\'e,"Geometries enumeratives complexe, reelle et tropicale",,"['math.AG', 'math.CO']","  This text is an introduction to algebraic enumerative geometry and to
+applications of tropical geometry to classical geometry, based on a course
+given during the X-UPS mathematical days, 2008 May 14th and 15th. The aim of
+this text is to be understandable by a first year master student.
+"
+90,0808.1187,Mikhail Skopenkov,On approximability by embeddings of cycles in the plane,,"['math.GT', 'math.CO']","  We obtain a criterion for approximability by embeddings of piecewise linear
+maps of a circle to the plane, analogous to the one proved by Minc for maps of
+a segment to the plane.
+  Theorem. Let S be a triangulation of a circle with s vertices. Let f be a
+simplicial map of the graph S to the plane. The map f is approximable by
+embeddings if and only if for each i=0,...,s the i-th derivative of the map f
+(defined by Minc) neither contains transversal self-intersections nor is the
+standard winding of degree greater than 1.
+  We deduce from the Minc result the completeness of the van Kampen obstruction
+to approximability by embeddings of piecewise linear maps of a segment to the
+plane. We also generalize these criteria to simplicial maps of a graph without
+vertices of degree >3 to a circle.
+"
+91,0808.1298,Maysam Maysami Sadr,Quantum metric spaces of quantum maps,,"['math.OA', 'math.FA']","  We show that any quantum family of maps from a non commutative space to a
+compact quantum metric space has a canonical quantum semi metric structure.
+"
+92,0808.1852,Pierre Zofel,The Meccano of life,,['q-bio.BM'],"  This article is interested in the origin of the genetic code, it puts forward
+a scenario of a simultaneous selection of the bases and amino acids and setting
+up of a correlation between them. Each amino acid is associated with a pair of
+its own kind, called the binding pair and each binding pair is associated with
+the codon(s) corresponding to the same amino acid. An explanation is also
+proposed about the origin of the start and stop codons.
+"
+93,0808.2861,"Denys Dutykh (LAMA & CMLA), Fr\'ed\'eric Dias (CMLA, LRC Meso)",Energy of tsunami waves generated by bottom motion,10.1098/rspa.2008.0332,"['physics.ao-ph', 'math.AP', 'nlin.PS', 'nlin.SI', 'physics.comp-ph', 'physics.geo-ph']","  In the vast literature on tsunami research, few articles have been devoted to
+energy issues. A theoretical investigation on the energy of waves generated by
+bottom motion is performed here. We start with the full incompressible Euler
+equations in the presence of a free surface and derive both dispersive and
+non-dispersive shallow-water equations with an energy equation. It is shown
+that dispersive effects only appear at higher order in the energy budget. Then
+we solve the Cauchy-Poisson problem of tsunami generation for the linearized
+water wave equations. Exchanges between potential and kinetic energies are
+clearly revealed.
+"
+94,0808.2942,Maysam Maysami Sadr,Morita Equivalence of Brandt Semigroup Algebras,,"['math.FA', 'math.RA']","  We prove that for every group $G$ and any two sets $I,J$, the Brandt
+semigroup algebras $\ell(B(I,G))$ and $\ell(B(J,G))$ are Morita equivalent with
+respect to the Morita theory of self-induced Banach algebras introduced by
+Gronbaek. As applications, we show that if $G$ is an amenable group, then for a
+wide class of Banach $\ell(B(I,G))$-bimodules $E$, and every $n>0$, the bounded
+Hochschild cohomology groups $H^n(\ell(B(I,G)),E^*)$ are trivial, and also, the
+notion of approximate amenability is not Morita invariant.
+"
+95,0808.2967,Maysam Maysami Sadr,Continuous Bounded Cohomology of Topological Semigroups,,['math.FA'],"  In this short note, we give some new results on continuous bounded cohomology
+groups of topological semigroups with values in complex field. We show that the
+second continuous bounded cohomology group of a compact metrizable semigroup,
+is a Banach space. Also, we study cohomology groups of amenable topological
+semigroups, and we show that cohomology groups of rank greater than one of a
+compact left or right amenable semigroup, are trivial. Also, we give some
+examples and applications about topological lattices.
+"
+96,0808.3588,"Marcos Craizer, Henri Anciaux, Thomas Lewiner",Discrete Affine Surfaces based on Quadrangular Meshes,,['math.DG'],"  In this paper we are interested in defining affine structures on discrete
+quadrangular surfaces of the affine three-space. We introduce, in a
+constructive way, two classes of such surfaces, called respectively indefinite
+and definite surfaces. The underlying meshes for indefinite surfaces are
+asymptotic nets satisfying a non-degeneracy condition, while the underlying
+meshes for definite surfaces are non-degenerate conjugate nets satisfying a
+certain natural condition. In both cases we associate to any of these nets
+several discrete affine invariant quantities: a metric, a normal and a
+co-normal vector fields, and a mean curvature. Moreover, we derive structural
+and compatibility equations which are shown to be necessary and sufficient
+conditions for the existence of a discrete quadrangular surface with a given
+affine structure.
+"
+97,0809.1751,"Romain Boulet, Etienne Fieux, Bertrand Jouve",Simplicial simple-homotopy of flag complexes in terms of graphs,,"['math.CO', 'math.AT']","  A flag complex can be defined as a simplicial complex whose simplices
+correspond to complete subgraphs of its 1-skeleton taken as a graph. In this
+article, by introducing the notion of s-dismantlability, we shall define the
+s-homotopy type of a graph and show in particular that two finite graphs have
+the same s-homotopy type if, and only if, the two flag complexes determined by
+these graphs have the same simplicial simple-homotopy type (Theorem 2.10, part
+1). This result is closely related to similar results established by Barmak and
+Minian (Adv. in Math., 218 (2008), 87-104) in the framework of posets and we
+give the relation between the two approaches (theorems 3.5 and 3.7). We
+conclude with a question about the relation between the s-homotopy and the
+graph homotopy defined by Chen, Yau and Yeh (Discrete Math., 241(2001),
+153-170).
+"
+98,0809.2093,"Troy Lee, Adi Shraibman",An approximation algorithm for approximation rank,,['cs.CC'],"  One of the strongest techniques available for showing lower bounds on quantum
+communication complexity is the logarithm of the approximation rank of the
+communication matrix--the minimum rank of a matrix which is entrywise close to
+the communication matrix. This technique has two main drawbacks: it is
+difficult to compute, and it is not known to lower bound quantum communication
+complexity with entanglement.
+  Linial and Shraibman recently introduced a norm, called gamma_2^{alpha}, to
+quantum communication complexity, showing that it can be used to lower bound
+communication with entanglement. Here the parameter alpha is a measure of
+approximation which is related to the allowable error probability of the
+protocol. This bound can be written as a semidefinite program and gives bounds
+at least as large as many techniques in the literature, although it is smaller
+than the corresponding alpha-approximation rank, rk_alpha. We show that in fact
+log gamma_2^{alpha}(A)$ and log rk_{alpha}(A)$ agree up to small factors. As
+corollaries we obtain a constant factor polynomial time approximation algorithm
+to the logarithm of approximate rank, and that the logarithm of approximation
+rank is a lower bound for quantum communication complexity with entanglement.
+"
+99,0809.4091,Jorma Jormakka,On the rank of elliptic curves,,['math.GM'],"  The paper proves that the Birch and Swinnerton-Dyer conjecture is false.
+"
