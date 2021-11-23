@@ -38,7 +38,7 @@ def vector_w2v(df, vector_size=1):
 
     for index, row in df.iterrows():
         print(row["clean_abstract"])
-        lst = [model.wv(word) for word in row["clean_abstract"]]
+        lst = [model.wv[word] for word in row["clean_abstract"]]
         print(lst)
         #df["vectorized_w2v"][index] = lst
 

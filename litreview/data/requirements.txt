@@ -1,0 +1,7 @@
+pandas
+nltk
+string
+unidecode
+sklearn
+numpy
+gensim

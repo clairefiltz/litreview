@@ -24,4 +24,4 @@ def run_app(path_df, vectorizer, model, n_neighbors=0, abstract=None):
             print(indices)
         return "Everything done!"
 
-print(run_app("/home/felix/code/clairefiltz/litreview/raw_data/subset_100.csv", "word2vec", "KNN", 3))
+print(run_app("/home/felix/code/clairefiltz/litreview/raw_data/subset_100.csv", "tfidf", "KNN", 5))
