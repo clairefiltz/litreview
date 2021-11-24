@@ -23,7 +23,6 @@ def bag_of_words(df):
     return X_vectorized
 
 # TF-IDF
-from sklearn.feature_extraction.text import TfidfVectorizer
 
 def tfidf(df):
 
@@ -32,7 +31,6 @@ def tfidf(df):
     X_new = vectorizer.fit_transform(texts)
     X_tfidf =X_new.toarray()
     X_vectorized = pd.DataFrame(X_tfidf, columns=vectorizer.get_feature_names_out())
-
     return X_vectorized
 
 # Word2Vec
@@ -47,12 +45,13 @@ def vector_w2v(df, vector_size=10):
     def vec_mean(x):
         return [vectorizer.wv[word] for word in x]
     new_df['vectorized_w2v'] = new_df["clean_abstract"].apply(lambda x:vec_mean(x))
-    new_df['mean_vectorized_w2v'] = new_df['vectorized_w2v'].apply(lambda x:np.mean(x,axis=1))
+    new_df['mean_vectorized_w2v'] = new_df['vectorized_w2v'].apply(lambda x:np.mean(x,axis=0))
 
-    return np.array([x['mean_vectorized_w2v'] for _, x in new_df.iterrows()])
+    tmp2 = [x['mean_vectorized_w2v'].tolist() for _, x in new_df.iterrows()]
+    return np.array([tmp2],dtype='float64')
 
 # LDA? or some other model?
-    #return model.wv.vectors
+#return model.wv.vectors
 
 
-    # df["vectorized_vaules"] = [value for value in word2vec.wv[]]
+# df["vectorized_vaules"] = [value for value in word2vec.wv[]]

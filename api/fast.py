@@ -1,6 +1,6 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-#from litreview.data.searchtest import run_search
+from litreview.data import search
 app = FastAPI()
 
 app.add_middleware(
@@ -17,4 +17,4 @@ def index():
 
 @app.get("/predict")
 def predict():
-    return run_search()
+    return search.run_search()
