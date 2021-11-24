@@ -1,8 +1,9 @@
-import preprocessing
+from preprocessing import preprocessing
 import vectorizing
 import trainer
 import pandas as pd
 import os
+from api import fast
 
 dirname = os.path.dirname(__file__)
 filename = os.path.join(dirname, '../../raw_data/trimmed_arxiv_docs5000.csv')
@@ -35,3 +36,5 @@ def run_search(path_df=PATH, vectorizer=VECTORIZER, model=MODEL, n_neighbors=N_N
                     tmp.append(df.loc[indices[i][j],'title'])
                 result[df.loc[indices[i][0],'title']] = tmp
             return result
+
+print(run_search()['Triangulated categories of relative 1-motives'])
