@@ -4,9 +4,15 @@ from nltk import word_tokenize
 import nltk
 import string
 from unidecode import unidecode
+<<<<<<< HEAD
 # nltk.download('stopwords')
 # nltk.download('punkt')
 # nltk.download('wordnet')
+=======
+#nltk.download('stopwords')
+#nltk.download('punkt')
+#nltk.download('wordnet')
+>>>>>>> 8fa3e8ffef9446402bd83eba11bb922602d1052d
 
 stop_words = set(stopwords.words('english'))
 
