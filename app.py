@@ -29,9 +29,8 @@ st.markdown("""## An Automated Literature Review Tool
 Welcome!
 """)
 
-#
-file_alex = '/Users/viana.abreu/code/clairefiltz/litreview/raw_data/trimmed_arxiv_docs5000.csv'
-test_df = pd.read_csv(file_alex)
+file_path = 'gs://litreview-bucket/litreview-bucket/trimmed_arxiv_docs5000.csv'
+test_df = pd.read_csv(file_path)
 
 #search bar
 title = st.text_input('Title of Paper', 'Please insert the name of a paper here')
@@ -56,5 +55,5 @@ st.write('Here are the 10 most related papers to your input:')
 
 
 
-test_df = pd.read_csv(file_alex)
+test_df = pd.read_csv(file_path)
 st.write(test_df[['authors', 'title', 'doi', 'category', 'abstract']].head(10))
