@@ -21,6 +21,7 @@ gcsfs
 google-cloud-storage
 mlflow
 s3fs
+streamlit
 
 # utilities
 six>=1.14
@@ -28,5 +29,9 @@ joblib
 memoized-property
 termcolor
 
+nltk
+unidecode
+gensim==4.1.2
+fastapi
 # my pack
-git+https://github.com/clairefiltz/litreview/tree/alex/litreview/data
+#git+https://github.com/clairefiltz/litreview/tree/alex/litreview/data

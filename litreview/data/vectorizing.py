@@ -49,7 +49,7 @@ def vector_w2v(df, vector_size=10):
     new_df['vectorized_w2v'] = new_df["clean_abstract"].apply(lambda x:vec_mean(x))
     new_df['mean_vectorized_w2v'] = new_df['vectorized_w2v'].apply(lambda x:np.mean(x,axis=1))
 
-    return np.array([x['mean_vectorized_w2v'] for _, x in new_df.iterrows()])
+    return np.array([x['mean_vectorized_w2v'] for _, x in new_df.iterrows()], dtype=object)
 
 # LDA? or some other model?
     #return model.wv.vectors
