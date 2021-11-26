@@ -6,7 +6,7 @@ dirname = os.path.dirname(__file__)
 filename = os.path.join(dirname, '../../raw_data/trimmed_arxiv_docs5000.csv')
 
 PATH = filename
-VECTORIZER = 'tfidf'
+VECTORIZER = "word2vec"
 MODEL = 'KNN'
 N_NEIB = 3
 def run_search(path_df=PATH, vectorizer=VECTORIZER, model=MODEL, n_neighbors=N_NEIB, abstract=None):
@@ -31,7 +31,7 @@ def run_search(path_df=PATH, vectorizer=VECTORIZER, model=MODEL, n_neighbors=N_N
                 for j in range(1,n_neighbors):
                     tmp.append(df.loc[indices[i][j],'title'])
                 result[df.loc[indices[i][0],'title']] = tmp
-            return result
+            return result, VECTORIZER, MODEL
     return 'fine'
 
-print(run_search()['The affine part of the Picard scheme'])
+#print(run_search()['The affine part of the Picard scheme'])
