@@ -36,8 +36,8 @@ def remove_stopwords(text):
 # this function is not working
 def remove_numbers(lst):
     for word in lst:
-      if word.isdecimal():
-        lst.remove(word)
+        if word.isdecimal():
+            lst.remove(word)
     return lst
 
 def preprocessing(csv_input):
@@ -51,3 +51,12 @@ def preprocessing(csv_input):
     df["clean_abstract_text"] = df["clean_abstract"].apply(lambda x: " ".join(x))
 
     return df
+
+def input_preprocessing(text):
+    text = lower_case(text)
+    text = remove_whitespaces(text)
+    text = remove_special_characters(text)
+    text = remove_punctuation(text)
+    text = remove_stopwords(text)
+    text = " ".join(text)
+    return text

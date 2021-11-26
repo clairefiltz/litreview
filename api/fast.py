@@ -17,4 +17,5 @@ def index():
 
 @app.get("/predict")
 def predict():
-    return search.run_search()
+    result, vec, model = search.run_search()
+    return result

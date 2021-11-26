@@ -4,6 +4,7 @@ from gensim.models import Word2Vec
 from sklearn.feature_extraction.text import TfidfVectorizer
 import pandas as pd
 import numpy as np
+import os
 
 
 # Bag of words
@@ -35,23 +36,63 @@ def tfidf(df):
 
 # Word2Vec
 # get one preprocessed data frame as input and return a data frame vectorized
-def vector_w2v(df, vector_size=10):
+def vector_w2v(df, vector_size=100):
     #copy to be safe with the data
-    new_df = df.copy()
+    df_copy = df.copy()
+    model = Word2Vec(df_copy.clean_abstract.values.tolist(),
+                     vector_size=vector_size,
+                     min_count=1)
+    dirname = os.path.dirname(__file__)
+    filename = os.path.join(dirname, '../../raw_data/w2c.csv')
+    with open(filename, 'w+') as word2vec_file:
+        for index, row in df_copy.iterrows():
+            model_vector = (np.mean([model.wv[word] for word in row['clean_abstract']],axis=0)).tolist()
+            if index == 0:
+                header = ",".join(str(ele) for ele in range(vector_size))
+                word2vec_file.write(header)
+                word2vec_file.write("\n")
+            # Check if the line exists else it is vector of zeros
+            if type(model_vector) is list:
+                line1 = ",".join([str(vector_element) for vector_element in model_vector])
+            else:
+                line1 = ",".join([str(0) for i in range(vector_size)])
+            word2vec_file.write(line1)
+            word2vec_file.write('\n')
 
-    # instatiate the model
-    lst_clean_abstracts = list(df["clean_abstract"])
-    vectorizer = Word2Vec(sentences=lst_clean_abstracts, vector_size=vector_size, min_count=1)
-    def vec_mean(x):
-        return [vectorizer.wv[word] for word in x]
-    new_df['vectorized_w2v'] = new_df["clean_abstract"].apply(lambda x:vec_mean(x))
-    new_df['mean_vectorized_w2v'] = new_df['vectorized_w2v'].apply(lambda x:np.mean(x,axis=0))
-
-    tmp2 = [x['mean_vectorized_w2v'].tolist() for _, x in new_df.iterrows()]
-    return np.array([tmp2],dtype='float64')
+    vectorized_df = pd.DataFrame(pd.read_csv(filename))
+    return vectorized_df
 
 # LDA? or some other model?
 #return model.wv.vectors
 
 
 # df["vectorized_vaules"] = [value for value in word2vec.wv[]]
+
+
+def vector_w2v_new(df, vector_size=100):
+    #copy to be safe with the data
+    df_copy = df.copy()
+    model = Word2Vec(df_copy.clean_abstract.values.tolist(),
+                     vector_size=vector_size,
+                     min_count=1)
+    dirname = os.path.dirname(__file__)
+    filename = os.path.join(dirname, '../../raw_data/w2complete.csv')
+    with open(filename, 'w+') as word2vec_file:
+        list_words = model.wv.index_to_key
+        for index, row in df_copy.iterrows():
+            if index == 0:
+                header = ",".join(str(word) for word in list_words)
+                word2vec_file.write(header)
+                word2vec_file.write("\n")
+            abstract_vector = []
+            for word in list_words:
+                if word in row['clean_abstract']:
+                    abstract_vector.append(np.mean(model.wv[word]))
+                else:
+                    abstract_vector.append(0.0)
+            line = ",".join([str(vector_element) for vector_element in abstract_vector])
+            word2vec_file.write(line)
+            word2vec_file.write('\n')
+
+    vectorized_df = pd.DataFrame(pd.read_csv(filename))
+    return vectorized_df
