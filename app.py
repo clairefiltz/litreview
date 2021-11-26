@@ -79,7 +79,7 @@ neighbors = st.number_input('',
     min_value=2,
     max_value=30,
 )
-button_clicked = st.button("OKKK")
+button_clicked = st.button("OK")
 
 if button_clicked:
     result = main.run_main(input_user, neighbors)
