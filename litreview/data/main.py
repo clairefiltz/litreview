@@ -1,17 +1,18 @@
 from litreview.data import preprocessing
+from urllib.request import urlopen
 import joblib
 import pandas as pd
 
 
 #DATABASE = 'https://storage.googleapis.com/wagon-data-735-vianadeabreu/data/trimmed_arxiv_docs.csv'
 #PATH_MODEL = 'kmeans_10_000_rows_30_clusters.joblib'
-PATH_MODEL = 'knn500k.joblib'
-PATH_VEC = 'vec500k.joblib'
+#PATH_MODEL = 'knn500k.joblib'
+#PATH_VEC = 'vec500k.joblib'
 
 DATABASE = 'https://storage.googleapis.com/wagon-data-735-vianadeabreu/data/trimmed_arxiv_docs.csv'
 #PATH_MODEL = 'https://storage.googleapis.com/wagon-data-735-vianadeabreu/models/kmeans_10_000_rows_30_clusters.joblib'
-#PATH_MODEL = 'https://storage.googleapis.com/wagon-data-735-vianadeabreu/models/knn500k.joblib'
-#PATH_VEC = 'https://storage.googleapis.com/wagon-data-735-vianadeabreu/models/vec500k.joblib'
+PATH_MODEL = 'https://storage.googleapis.com/wagon-data-735-vianadeabreu/models/knn500k.joblib'
+PATH_VEC = 'https://storage.googleapis.com/wagon-data-735-vianadeabreu/models/vec500k.joblib'
 
 
 def run_main(user_input, neighbors=3):
@@ -23,8 +24,8 @@ def run_main(user_input, neighbors=3):
 
     ## this is for running the search with knn model
     # import the model and the vecorizer from a joblib
-    imported_knn = joblib.load(PATH_MODEL)
-    imported_vec = joblib.load(PATH_VEC)
+    imported_knn = joblib.load(urlopen(PATH_MODEL))
+    imported_vec = joblib.load(urlopen(PATH_VEC))
 
     ## transform user input to vectorizer
     vectorized_user_input = imported_vec.transform([user_input])
