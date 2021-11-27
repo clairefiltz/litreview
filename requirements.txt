@@ -7,7 +7,7 @@ wheel>=0.29
 # data science
 numpy
 pandas
-scikit-learn==0.22
+scikit-learn
 
 # tests/linter
 black
@@ -31,5 +31,6 @@ nltk
 unidecode
 gensim==4.1.2
 fastapi
+streamlit
 
 # my pack

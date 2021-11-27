@@ -1,13 +1,13 @@
 import streamlit as st
-import numpy as np
+from litreview.data import main
+import random
 import pandas as pd
-from litreview.data import search, main
-import os
+
 st.set_page_config(
-    page_title="Automated Literature Review", # => Quick reference - Streamlit
-    page_icon="🐍",
-    layout="wide", # wide
-    initial_sidebar_state="auto") # collapsed
+    page_title="Automated Literature Review",  # => Quick reference - Streamlit
+    page_icon="📚",
+    layout="wide",  # wide
+    initial_sidebar_state="auto")  # collapsed
 
 
 ## setup for sidebar ##
@@ -28,7 +28,7 @@ sideb.write(
 
 ## setup main ##
 st.markdown(
-    "<h1 style='text-align: center; color: #5D6D7E;'>An Automated Literature Review Tool</h1>",
+    "<h1 style='text-align: center; color: #5D6D7E;'>an automated literature review tool</h1>",
     unsafe_allow_html=True
 )
 ## setup search bar ##
@@ -37,8 +37,8 @@ st.markdown(
 #dirname = os.path.dirname(__file__)
 #filename = os.path.join(dirname, 'raw_data/trimmed_arxiv_docs5000.csv')
 #
-#filename = 'https://storage.googleapis.com/wagon-data-735-vianadeabreu/data/trimmed_arxiv_docs5000.csv'
-#test_df = pd.read_csv(filename)
+filename = 'https://storage.googleapis.com/wagon-data-735-vianadeabreu/data/trimmed_arxiv_docs5000.csv'
+test_df = pd.read_csv(filename)
 
 
 
@@ -73,7 +73,7 @@ def icon(icon_name):
 local_css("style.css")
 remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
 
-icon("search")
+#icon("search")
 input_user = st.text_input("", "search...")
 neighbors = st.number_input('',
     min_value=2,
@@ -82,11 +82,18 @@ neighbors = st.number_input('',
 button_clicked = st.button("OK")
 
 if button_clicked:
-    result = main.run_main(input_user, neighbors)
+    #result = main.run_main(input_user, neighbors)
+    indices = random.sample(range(0,test_df.shape[0]),k=neighbors)
     st.write(
-        "<h1 style='text-align: left; color: #5D6D7E; font-size: 18px;'>Related papers:</h1>",
+        f"<h1 style='text-align: left; color: #5D6D7E; font-size: 18px;'>Sorry, we are under construction! But here are {neighbors} nice papers to read:</h1>",
         unsafe_allow_html=True)
-    for paper in result:
+    #st.write(
+    #    "<h1 style='text-align: left; color: #5D6D7E; font-size: 18px;'>Related papers:</h1>",
+    #    unsafe_allow_html=True)
+    for i in indices:
         st.write(
-            f"<h1 style='text-align: left; color: #ABB2B9; font-size: 15px;'>{paper[0]}</h1>",
-            unsafe_allow_html=True)
+                f"<h1 style='text-align: left; color: #ABB2B9; font-size: 15px;'>{test_df.iloc[i,2]}</h1>",
+                unsafe_allow_html=True)
+        st.write(
+               f"<h1 style='text-align: left; color: #ABB2B9; font-size: 15px; font-style: italic;'>{test_df.iloc[i,5]}</h1>",
+               unsafe_allow_html=True)
