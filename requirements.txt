@@ -7,7 +7,7 @@ wheel>=0.29
 # data science
 numpy
 pandas
-scikit-learn==0.22
+scikit-learn
 
 # tests/linter
 black
@@ -21,6 +21,7 @@ gcsfs
 google-cloud-storage
 mlflow
 s3fs
+fastapi
 
 # utilities
 six>=1.14
@@ -29,7 +30,9 @@ memoized-property
 termcolor
 nltk
 unidecode
-gensim==4.1.2
-fastapi
+#gensim==4.1.2
+#gensim
+streamlit
+uvicorn
 
 # my pack
