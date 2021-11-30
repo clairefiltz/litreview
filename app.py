@@ -3,9 +3,10 @@ import requests
 import pandas as pd
 import random
 import time
+#import json
 
 
-api_url = 'https://litreviewdockerimage-z37yi6v7za-ew.a.run.app/predict'
+api_url = 'https://literaturereview-z37yi6v7za-ew.a.run.app/predict'
 api_local = 'http://127.0.0.1:8000/predict'
 st.set_page_config(
     page_title="Automated Literature Review",  # => Quick reference - Streamlit
@@ -35,7 +36,7 @@ st.markdown(
 #dirname = os.path.dirname(__file__)
 #filename = os.path.join(dirname, 'raw_data/trimmed_arxiv_docs5000.csv')
 #
-filename = 'https://storage.googleapis.com/wagon-data-735-vianadeabreu/data/trimmed_arxiv_docs5000.csv'
+filename = 'https://storage.googleapis.com/wagon-data-735-vianadeabreu/data/arxiv-metadata_final.csv'
 start_time = time.time()
 
 
@@ -88,8 +89,8 @@ params = {'user_input': input_user.split(), 'neighbors': neighbors}
 
 if button_clicked:
     params
-    response = requests.get(api_local, params=params)
-    #response.text
+    response = requests.get(api_url, params=params)
+    response.text
     prediction = response.json()
     #prediction
     indices = prediction['indices']
