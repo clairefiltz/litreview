@@ -5,7 +5,7 @@ import random
 import time
 
 
-api_url = 'https://litreviewdockerimage-z37yi6v7za-ew.a.run.app/predict'
+api_url = 'https://literaturereview-z37yi6v7za-ew.a.run.app'
 api_local = 'http://127.0.0.1:8000/predict'
 st.set_page_config(
     page_title="Automated Literature Review",  # => Quick reference - Streamlit
