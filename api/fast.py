@@ -1,6 +1,8 @@
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
-from litreview.data import search
+from litreview import preprocessing, prediction
+
+
 app = FastAPI()
 
 app.add_middleware(
@@ -16,6 +18,11 @@ def index():
     return {"greeting": "Hello world"}
 
 @app.get("/predict")
-def predict():
-    result, vec, model = search.run_search()
-    return result
+def predict(user_input, neighbors=3):
+    # neighbors have to be int
+    neighbors = int(neighbors)
+    # preprocessing the input from the user
+    text = preprocessing.input_preprocessing(user_input)
+    print('=> input preprocessed')
+
+    return prediction.predictor(text,neighbors)

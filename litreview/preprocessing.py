@@ -4,9 +4,10 @@ from nltk import word_tokenize
 import nltk
 import string
 from unidecode import unidecode
-#nltk.download('stopwords')
-#nltk.download('punkt')
-#nltk.download('wordnet')
+#from litreview.params import LOCAL_CSV
+nltk.download('stopwords')
+nltk.download('punkt')
+nltk.download('wordnet')
 
 stop_words = set(stopwords.words('english'))
 
