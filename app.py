@@ -9,7 +9,7 @@ from litreview.params import PROJECT_ID, LOCATION, check_table_name
 #################
 ## hard codes ##
 #################
-API_URL = 'https://literaturreview-z37yi6v7za-ew.a.run.app/predict'
+API_URL = 'https://literaturerview-z37yi6v7za-ew.a.run.app/predict'
 API_LOCAL = 'http://127.0.0.1:8000/predict'
 #FILENAME = 'https://storage.googleapis.com/wagon-data-735-vianadeabreu/data/arxiv-metadata_final.csv'
 FILENAME = 'https://storage.googleapis.com/wagon-data-735-vianadeabreu/data/trimmed_arxiv_docs.csv'
@@ -34,17 +34,23 @@ sideb.write(
 sideb.write(
     "<h1 style='text-align: center; color: #5D6D7E; font-size: 13px;'>Issa Al Barwani, Alex Viana</h1>",
     unsafe_allow_html=True)
+sideb.markdown(
+    "<h1 style='text-align: center; color: #5D6D7E; font-size: 13px;'>With the 🥋💪🏏💥 of Ben Auzanneau</h1>",
+    unsafe_allow_html=True)
+# unused emojis:  🚀🎾
 
 #######################
 ## setup for main #####
 #######################
 st.markdown(
-    "<h1 style='text-align: center; color: #5D6D7E;'>an automated literature review tool</h1>",
+    "<h1 style='text-align: center; color: #5D6D7E;'>An Automated Literature Review Tool</h1>",
+    unsafe_allow_html=True)
+st.markdown(
+    "<h5 style='text-align: center; color: #5D6D7E;'>You give us one paper, we give you many. </h5>",
     unsafe_allow_html=True)
 ##########################
 ## setup for search bar ##
 ##########################
-
 
 def local_css(file_name):
     with open(file_name) as f:
@@ -64,14 +70,22 @@ def icon(icon_name):
 local_css("style.css")
 remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
 
-# icon("search")
-input_user = st.text_input("", "search...")
+#icon("search")
+input_abstract = st.text_input("", placeholder="Please paste the abstract of your paper here")
+input_title = st.text_input("", placeholder="OPTIONAL: What is the title of your paper?")
+input_author = st.text_input("", placeholder="OPTIONAL: Who are the authors of your paper?")
+
+input_user = input_abstract + " " + input_title + " " + input_author
+
+#st.markdown("", placeholder="OPTIONAL: Who are the authors of your paper?")
 neighbors = st.number_input(
-    '',
+    label='How many papers are you looking for?',
     min_value=2,
     max_value=30,
 )
 button_clicked = st.button("OK")
+
+#params = {'user_input': input_user.split(), 'neighbors': neighbors}
 
 params = {'user_input': input_user.split(), 'neighbors': neighbors}
 
@@ -88,6 +102,7 @@ if button_clicked:
     #prediction["0"][1]
     start_time = time.time()
     #client = bigquery.Client(project=PROJECT_ID, location=LOCATION)
+    #prediction
     st.write(
         f"<h1 style='text-align: left; color: #5D6D7E; font-size: 18px;'>Here are {neighbors} nice papers to read:</h1>",
         unsafe_allow_html=True)

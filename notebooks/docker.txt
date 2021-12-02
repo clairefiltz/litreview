@@ -1,0 +1,56 @@
+gcloud auth list
+gcloud auth login
+gcloud auth configure-docker
+gcloud config list
+
+export PROJECT_ID='le-wagon-data-735-vianadeabreu'
+echo $PROJECT_ID
+gcloud config set project $PROJECT_ID
+
+export DOCKER_IMAGE_NAME=literaturerview
+echo $DOCKER_IMAGE_NAME
+
+docker build -t eu.gcr.io/$PROJECT_ID/$DOCKER_IMAGE_NAME .
+###run interactively
+docker build --tag=literaturerview .
+docker run -it -e PORT=8000 -p 8000:8000 literaturerview sh
+###end run interactively
+docker run -e PORT=8000 -p 8000:8000 eu.gcr.io/$PROJECT_ID/$DOCKER_IMAGE_NAME
+docker push eu.gcr.io/$PROJECT_ID/$DOCKER_IMAGE_NAME
+gcloud run deploy --image eu.gcr.io/$PROJECT_ID/$DOCKER_IMAGE_NAME --platform managed --region europe-west1
+
+
+https://literaturerview-z37yi6v7za-ew.a.run.app/predict?user_input=math,%20science,%20euclides&neighbors=10
+ok: https://literaturereview-z37yi6v7za-ew.a.run.app/predict?user_input=math,%20science,%20euclides&neighbors=10
+
+https://literaturreview-z37yi6v7za-ew.a.run.app/predict?user_input=math,%20science,%20euclides&neighbors=10
+
+/predict
+
+uncomment the path on the dockerfile
+and then
+echo $GOOGLE_APPLICATION_CREDENTIALS
+
+gcloud run deploy \
+    --image eu.gcr.io/$PROJECT_ID/$DOCKER_IMAGE_NAME \
+    --platform managed \
+    --region europe-west1 \
+    --set-env-vars "GOOGLE_APPLICATION_CREDENTIALS=/credentials.json"
+
+
+
+/Users/viana.abreu/Downloads/raw_data/vec_5000_max_features_full_dataset.joblib
+/Users/viana.abreu/Downloads/raw_data/knn_5000_max_features_full_dataset.joblib
+
+
+
+
+
+
+
+
+https://literaturerview-z37yi6v7za-ew.a.run.app/predict?user_input=We propose a chirp-like signal model as an alternative to a chirp model and a\ngeneralisation of the sinusoidal model, which is a fundamental model in the\nstatistical signal processing literature. It is observed that the proposed\nmodel can be arbitrarily close to the chirp model. The propounded model is\nsimilar to a chirp model in the sense that here also the frequency changes\nlinearly with time. However, the parameter estimation of a chirp-like model is\nsimpler compared to a chirp model. In this paper, we consider the least squares\nand the sequential least squares estimation procedures and study the asymptotic\nproperties of these proposed estimators. These asymptotic results are\ncorroborated through simulation studies and analysis of four speech signal data\nsets have been performed to see the effectiveness of the proposed model, and\nthe results are quite encouraging&neighbors=10
+
+
+761805
+761805

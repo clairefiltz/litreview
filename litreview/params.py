@@ -5,7 +5,7 @@ LOCAL_CSV = 'test'
 BUCKET_NAME = 'wagon-data-735-vianadeabreu'
 PROJECT_ID ='le-wagon-data-735-vianadeabreu'
 LOCATION = 'EU'
-
+DATA_SET = 'arxiv'
 
 def check_table_name(x):
     tables = list(range(99999, 1978108, 100000))
@@ -16,5 +16,4 @@ def check_table_name(x):
             return str(tables[i])
     return None
 
-
-#print('aqui', check_table_name(346732))
+print('aqui', check_table_name(761805))
