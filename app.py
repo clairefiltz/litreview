@@ -1,20 +1,28 @@
 import streamlit as st
 import requests
 import pandas as pd
-import random
+#import random
 import time
-#import json
+from google.cloud import bigquery
+from litreview.params import PROJECT_ID, LOCATION, check_table_name
 
+#################
+## hard codes ##
+#################
+API_URL = 'https://literaturreview-z37yi6v7za-ew.a.run.app/predict'
+API_LOCAL = 'http://127.0.0.1:8000/predict'
+#FILENAME = 'https://storage.googleapis.com/wagon-data-735-vianadeabreu/data/arxiv-metadata_final.csv'
+FILENAME = 'https://storage.googleapis.com/wagon-data-735-vianadeabreu/data/trimmed_arxiv_docs.csv'
 
-api_url = 'https://literaturereview-z37yi6v7za-ew.a.run.app/predict'
-api_local = 'http://127.0.0.1:8000/predict'
 st.set_page_config(
     page_title="Automated Literature Review",  # => Quick reference - Streamlit
     page_icon="📚",
     layout="wide",  # wide
     initial_sidebar_state="auto")  # collapsed
 
+#######################
 ## setup for sidebar ##
+#######################
 sideb = st.sidebar
 sideb.image("images/logo.png", use_column_width=True)
 sideb.markdown(
@@ -27,35 +35,15 @@ sideb.write(
     "<h1 style='text-align: center; color: #5D6D7E; font-size: 13px;'>Issa Al Barwani, Alex Viana</h1>",
     unsafe_allow_html=True)
 
-## setup main ##
+#######################
+## setup for main #####
+#######################
 st.markdown(
     "<h1 style='text-align: center; color: #5D6D7E;'>an automated literature review tool</h1>",
     unsafe_allow_html=True)
-## setup search bar ##
-
-#dirname = os.path.dirname(__file__)
-#filename = os.path.join(dirname, 'raw_data/trimmed_arxiv_docs5000.csv')
-#
-filename = 'https://storage.googleapis.com/wagon-data-735-vianadeabreu/data/arxiv-metadata_final.csv'
-start_time = time.time()
-
-
-test_df = pd.read_csv(filename)
-end_time = time.time()
-end_time - start_time
-
-#search bar
-#title = st.text_input('','search')
-#st.button(label='Enter', key=None, help=None, on_click=None, args=None, kwargs=None)
-#if st.button('click me'):
-# print is visible in the server output, not in the page
-#if title in list(test_df['title']):
-#   st.write('Related papers:',
-#search.run_search(n_neighbors=option+1)[title])
-#else:
-#   st.write('Paper does not exist')
-#st.write('You look for the cluster: ', main.run_main(title))
-#option = st.slider('Select number of related papers to show', 1, 10, 3)
+##########################
+## setup for search bar ##
+##########################
 
 
 def local_css(file_name):
@@ -76,7 +64,7 @@ def icon(icon_name):
 local_css("style.css")
 remote_css('https://fonts.googleapis.com/icon?family=Material+Icons')
 
-#icon("search")
+# icon("search")
 input_user = st.text_input("", "search...")
 neighbors = st.number_input(
     '',
@@ -88,23 +76,36 @@ button_clicked = st.button("OK")
 params = {'user_input': input_user.split(), 'neighbors': neighbors}
 
 if button_clicked:
-    params
-    response = requests.get(api_url, params=params)
-    response.text
+    #api_url
+    #api_local
+    #st.write('time to access the api')
+    start_time = time.time()
+    response = requests.get(API_URL, params=params)
     prediction = response.json()
-    #prediction
-    indices = prediction['indices']
-    #result = main.run_main(input_user, neighbors)
-    indices = random.sample(range(0, test_df.shape[0]), k=neighbors)
+    end_time = time.time()
+    #end_time - start_time
+    #result = prediction['indices']
+    #prediction["0"][1]
+    start_time = time.time()
+    #client = bigquery.Client(project=PROJECT_ID, location=LOCATION)
     st.write(
-        f"<h1 style='text-align: left; color: #5D6D7E; font-size: 18px;'>Sorry, we are under construction! But here are {neighbors} nice papers to read:</h1>",
+        f"<h1 style='text-align: left; color: #5D6D7E; font-size: 18px;'>Here are {neighbors} nice papers to read:</h1>",
         unsafe_allow_html=True)
-    for i in indices:
+    for i in range(neighbors):
+        #data = prediction[i]
+        #prediction[str(i)][0]
         st.write(
-            f"<h1 style='text-align: left; color: #ABB2B9; font-size: 15px;'>{test_df.iloc[i,2]}</h1>",
+            f"<h1 style='text-align: left; color: #ABB2B9; font-size: 15px;'>{prediction[str(i)][0]}</h1>",
             unsafe_allow_html=True)
         st.write(
-            f"<h1 style='text-align: left; color: #ABB2B9; font-size: 15px; font-style: italic;'>{test_df.iloc[i,5]}</h1>",
+            f"<h1 style='text-align: left; color: #ABB2B9; font-size: 15px; font-style: italic;'>{prediction[str(i)][1]}</h1>",
             unsafe_allow_html=True)
-        link = f"https://arxiv.org/pdf/{test_df.iloc[i,0]}.pdf"
+        link = f"https://arxiv.org/pdf/{prediction[str(i)][2]}.pdf"
         st.write(f"link [here]({link})")
+    end_time = time.time()
+    #st.write('time to query')
+    #end_time - start_time
+
+#st.write(
+#f"<h1 style='text-align: left; color: #ABB2B9; font-size: 15px;'>{test_df.iloc[i,2]}</h1>",
+#unsafe_allow_html=True)
