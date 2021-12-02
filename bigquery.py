@@ -4,7 +4,8 @@ from litreview.params import PROJECT_ID, LOCATION, DATA_SET
 
 i = 0
 #for index in range(100000,2000000,100000):
-while True:
+upload = True
+while upload == True:
     data_set = DATA_SET
     #index, id, authors, title, doi, category, abstract
     client = bigquery.Client(project=PROJECT_ID, location=LOCATION)
@@ -32,7 +33,7 @@ while True:
         skip_leading_rows=1,
     )
     #uri = f'gs://wagon-data-735-vianadeabreu/data/arxiv-metadata_final_{i}_{index}.csv'
-    uri = 'gs://wagon-data-735-vianadeabreu/data/trimmed_arxiv_docs_500k_index.csv'
+    uri = 'gs://wagon-data-735-vianadeabreu/data/final_dataframe_01_dec.csv'
     load_job = client.load_table_from_uri(
         uri,
         table_id,
