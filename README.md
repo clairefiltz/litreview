@@ -1,10 +1,8 @@
 # Data analysis
 - Document here the project: litreview
-- Description: Project Description
+- Description: This is the Final Project of the Data Science Bootcamp that I completed from October to December 2021.
 - Data Source:
-- Type of analysis:
-
-Please document the project the better you can.
+- Type of analysis: NLP
 
 # Startup the project
 
